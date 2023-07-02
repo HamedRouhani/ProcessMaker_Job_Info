@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.2.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1688278175</meta>
+    <meta key="export_datetime"><![CDATA[2023-07-02T10:39:35+04:30]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.17.5.21:443]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">50631</meta>
+    <meta key="export_version">1</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name"><![CDATA[X10005 _ ثبت اطلاعات شغلي]]></meta>
+    <meta key="uid">87554931662f221bf840458054832994</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>12307739262f221e9a95942076948454</act_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <act_name><![CDATA[درخواست ايجاد / اصلاح اطلاعات شغلي]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>40155029262f221e9a9cc93044082969</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>12307739262f221e9a95942076948454</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>101</bou_x>
+        <bou_y>169</bou_y>
+        <bou_width>118</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>18914794962f2228a3c78d6016797104</act_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <act_name><![CDATA[ايجاد اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>90011596662f2228a3d0049091684258</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>18914794962f2228a3c78d6016797104</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>430</bou_x>
+        <bou_y>95</bou_y>
+        <bou_width>85</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>63882446262f222d9bee722017926990</act_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <act_name><![CDATA[حذف اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>26791381862f222d9bf4be3073804355</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>63882446262f222d9bee722017926990</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>326</bou_x>
+        <bou_y>238</bou_y>
+        <bou_width>80</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <act_uid>83428955062f22329d266e7063926560</act_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <act_name><![CDATA[ثبت و اطلاع‌رساني اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>40805053762f22329d2cff2026187691</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>83428955062f22329d266e7063926560</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>606</bou_x>
+        <bou_y>167</bou_y>
+        <bou_width>99</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>26791381862f222d9bf4be3073804355</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>63882446262f222d9bee722017926990</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>326</bou_x>
+        <bou_y>238</bou_y>
+        <bou_width>80</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>31100463862f22419d0ee32031196820</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>75140380862f22419d08fb7073730077</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>745</bou_x>
+        <bou_y>188</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>40155029262f221e9a9cc93044082969</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>12307739262f221e9a95942076948454</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>101</bou_x>
+        <bou_y>169</bou_y>
+        <bou_width>118</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>40805053762f22329d2cff2026187691</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>83428955062f22329d266e7063926560</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>606</bou_x>
+        <bou_y>167</bou_y>
+        <bou_width>99</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>5737915036301e115627ef6077980861</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>5506896976301e115622395075691094</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>452</bou_x>
+        <bou_y>255</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>80459594762f221e9bb2976000450951</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>30197143562f221e9ba9049085234182</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>32</bou_x>
+        <bou_y>190</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>82489013662f22329dbe040028265616</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>80737304662f22329db9ae8080303431</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>529</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>90011596662f2228a3d0049091684258</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>18914794962f2228a3c78d6016797104</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>430</bou_x>
+        <bou_y>95</bou_y>
+        <bou_width>85</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>91006469762f2230297b6a6034598531</bou_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>70959472662f22302974e68035649472</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>251</bou_x>
+        <bou_y>186</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_name><![CDATA[X10005 _ ثبت اطلاعات شغلي]]></dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>30197143562f221e9ba9049085234182</evn_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>80459594762f221e9bb2976000450951</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>30197143562f221e9ba9049085234182</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>32</bou_x>
+        <bou_y>190</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>75140380862f22419d08fb7073730077</evn_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>31100463862f22419d0ee32031196820</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>75140380862f22419d08fb7073730077</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>745</bou_x>
+        <bou_y>188</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>24957275362f221e9bdf082026303854</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>30197143562f221e9ba9049085234182</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>12307739262f221e9a95942076948454</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>65</flo_x1>
+        <flo_y1>207</flo_y1>
+        <flo_x2>101</flo_x2>
+        <flo_y2>207</flo_y2>
+        <flo_state><![CDATA[[{"x":65,"y":207},{"x":101,"y":207}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>27835083062f22b71e723e5080791526</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>12307739262f221e9a95942076948454</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>70959472662f22302974e68035649472</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>220</flo_x1>
+        <flo_y1>207</flo_y1>
+        <flo_x2>251</flo_x2>
+        <flo_y2>207</flo_y2>
+        <flo_state><![CDATA[[{"x":220,"y":207},{"x":251,"y":207}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>3887634276301e115660d62082285626</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>63882446262f222d9bee722017926990</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5506896976301e115622395075691094</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>407</flo_x1>
+        <flo_y1>276</flo_y1>
+        <flo_x2>452</flo_x2>
+        <flo_y2>276</flo_y2>
+        <flo_state><![CDATA[[{"x":407,"y":276},{"x":452,"y":276}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5800781256301e115661ec7007827967</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name><![CDATA[فقط حذف]]></flo_name>
+        <flo_element_origin>5506896976301e115622395075691094</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>80737304662f22329db9ae8080303431</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Replacement == '0';]]></flo_condition>
+        <flo_x1>493</flo_x1>
+        <flo_y1>276</flo_y1>
+        <flo_x2>550</flo_x2>
+        <flo_y2>225</flo_y2>
+        <flo_state><![CDATA[[{"x":493,"y":276},{"x":550,"y":276},{"x":550,"y":225}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>62820434562f22b49db3a58068892707</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>83428955062f22329d266e7063926560</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>75140380862f22419d08fb7073730077</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>705</flo_x1>
+        <flo_y1>205</flo_y1>
+        <flo_x2>745</flo_x2>
+        <flo_y2>205</flo_y2>
+        <flo_state><![CDATA[[{"x":705,"y":205},{"x":745,"y":205}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>69601440462f22329deb1a0058727444</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>18914794962f2228a3c78d6016797104</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>80737304662f22329db9ae8080303431</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>515</flo_x1>
+        <flo_y1>133</flo_y1>
+        <flo_x2>550</flo_x2>
+        <flo_y2>184</flo_y2>
+        <flo_state><![CDATA[[{"x":515,"y":133},{"x":550,"y":133},{"x":550,"y":184}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>760101318630089bcd3b243003648163</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name><![CDATA[ايجاد]]></flo_name>
+        <flo_element_origin>70959472662f22302974e68035649472</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>18914794962f2228a3c78d6016797104</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Select_Reg_Type == '1';]]></flo_condition>
+        <flo_x1>272</flo_x1>
+        <flo_y1>186</flo_y1>
+        <flo_x2>430</flo_x2>
+        <flo_y2>133</flo_y2>
+        <flo_state><![CDATA[[{"x":272,"y":186},{"x":272,"y":133},{"x":430,"y":133}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>92910766662f22329ded482041327710</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>80737304662f22329db9ae8080303431</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>83428955062f22329d266e7063926560</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition>1</flo_condition>
+        <flo_x1>570</flo_x1>
+        <flo_y1>205</flo_y1>
+        <flo_x2>606</flo_x2>
+        <flo_y2>205</flo_y2>
+        <flo_state><![CDATA[[{"x":570,"y":205},{"x":606,"y":205}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>4030151366301e13d6e9e18051021564</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name><![CDATA[ايجاد جايگزين]]></flo_name>
+        <flo_element_origin>5506896976301e115622395075691094</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>18914794962f2228a3c78d6016797104</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Replacement == '1';]]></flo_condition>
+        <flo_x1>473</flo_x1>
+        <flo_y1>255</flo_y1>
+        <flo_x2>473</flo_x2>
+        <flo_y2>170</flo_y2>
+        <flo_state><![CDATA[[{"x":473,"y":255},{"x":473,"y":170}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+      <record>
+        <flo_uid>930908203630089bcd3c8b2054042917</flo_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name><![CDATA[حذف]]></flo_name>
+        <flo_element_origin>70959472662f22302974e68035649472</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>63882446262f222d9bee722017926990</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@Select_Reg_Type == '2';]]></flo_condition>
+        <flo_x1>272</flo_x1>
+        <flo_y1>227</flo_y1>
+        <flo_x2>326</flo_x2>
+        <flo_y2>276</flo_y2>
+        <flo_state><![CDATA[[{"x":272,"y":227},{"x":272,"y":276},{"x":326,"y":276}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>5506896976301e115622395075691094</gat_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>5737915036301e115627ef6077980861</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>5506896976301e115622395075691094</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>452</bou_x>
+        <bou_y>255</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <gat_uid>70959472662f22302974e68035649472</gat_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>91006469762f2230297b6a6034598531</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>70959472662f22302974e68035649472</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>251</bou_x>
+        <bou_y>186</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <gat_uid>80737304662f22329db9ae8080303431</gat_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>CONVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>82489013662f22329dbe040028265616</bou_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <element_uid>80737304662f22329db9ae8080303431</element_uid>
+        <bou_element>600275271639dad8f6406c0097898564</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>529</bou_x>
+        <bou_y>184</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>76464843762f221bf889bf1042203747</pro_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <dia_uid>78036499062f221bf8816b8078257489</dia_uid>
+        <pro_name><![CDATA[X10005 _ ثبت اطلاعات شغلي]]></pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <prj_name><![CDATA[X10005 _ ثبت اطلاعات شغلي]]></prj_name>
+        <prj_description><![CDATA[Job_Registration / X100 / No._05
+از اين فرايند جهت ثبت مشاغل مطابق با سازمان داخلي و نوع فعاليت سازمان خارجي استفاده مي شود.]]></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2022-08-09 13:28:39]]></prj_create_date>
+        <prj_update_date><![CDATA[2022-12-17 15:22:51]]></prj_update_date>
+        <prj_author>130065917621f0e871b5af3035388694</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <pro_title><![CDATA[X10005 _ ثبت اطلاعات شغلي]]></pro_title>
+        <pro_description><![CDATA[Job_Registration / X100 / No._05
+از اين فرايند جهت ثبت مشاغل مطابق با سازمان داخلي و نوع فعاليت سازمان خارجي استفاده مي شود.]]></pro_description>
+        <pro_parent>87554931662f221bf840458054832994</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>249816894626e45e7767da4071651814</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2022-12-17 15:22:51]]></pro_update_date>
+        <pro_create_date><![CDATA[2022-08-09 13:28:39]]></pro_create_date>
+        <pro_create_user>130065917621f0e871b5af3035388694</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label><![CDATA[X100 | فرآيندهاي راهبري سيستم]]></pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>gtg-174316301e115740220008872537</tas_uid>
+        <tas_title>GATEWAYTOGATEWAY</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>GATEWAYTOGATEWAY</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>565</tas_posx>
+        <tas_posy>197</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>gtg-5312562f22302a4c038031717549</tas_uid>
+        <tas_title>GATEWAYTOGATEWAY</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>GATEWAYTOGATEWAY</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>464</tas_posx>
+        <tas_posy>219</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <tas_title><![CDATA[ايجاد اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>130065917621f0e871b5af3035388694</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>430</tas_posx>
+        <tas_posy>95</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>83428955062f22329d266e7063926560</tas_uid>
+        <tas_title><![CDATA[ثبت و اطلاع‌رساني اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>EVALUATE</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@RequestID]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>606</tas_posx>
+        <tas_posy>167</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <tas_title><![CDATA[حذف اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>130065917621f0e871b5af3035388694</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>326</tas_posx>
+        <tas_posy>238</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <tas_title><![CDATA[درخواست ايجاد / اصلاح اطلاعات شغلي]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>MANUAL</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>130065917621f0e871b5af3035388694</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>101</tas_posx>
+        <tas_posy>169</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>166015625639dad93c88cd9016253807</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>gtg-174316301e115740220008872537</tas_uid>
+        <rou_next_task>83428955062f22329d266e7063926560</rou_next_task>
+        <rou_case>3</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>472442626639dad93c96be7023300108</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>83428955062f22329d266e7063926560</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>509002685639dad93c2a195092585090</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <rou_next_task>18914794962f2228a3c78d6016797104</rou_next_task>
+        <rou_case>4</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Select_Reg_Type == '1';]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>542877197639dad93c4d8d0074467038</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <rou_next_task>83428955062f22329d266e7063926560</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition>1</rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>568450927639dad93c77577092894073</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <rou_next_task>gtg-174316301e115740220008872537</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Replacement == '0';]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>623657226639dad93c37d06086314207</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <rou_next_task>63882446262f222d9bee722017926990</rou_next_task>
+        <rou_case>5</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Select_Reg_Type == '2';]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>722229003639dad93c6f6d1057677604</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <rou_next_task>18914794962f2228a3c78d6016797104</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@Replacement == '1';]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>26879882862f725ba0d8bd6067551026</dyn_uid>
+        <dyn_title><![CDATA[ايجاد اطلاعات]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[87554931662f221bf840458054832994\26879882862f725ba0d8bd6067551026]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"ايجاد اطلاعات","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"26879882862f725ba0d8bd6067551026","name":"ايجاد اطلاعات","description":"","mode":"edit","script":{"type":"js","code":"//نمايش صفحه\n\n$(\"#26879882862f725ba0d8bd6067551026\").css({\"backgroundColor\":\"#ccccff\"});\n$(\"#26879882862f725ba0d8bd6067551026\").css({\"border\":\"3px double #336699\"});\n\n$(\"#title0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#336699\",\"border-radius\":\"5px\"});\n$(\"#title0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#669933\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000002\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#669933\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000002\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000003\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#669933\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000003\").css({\"text-align\":\"center\"});\n\n$(\"#submit0000000001\").css({\"font-family\":\"b titr\"});\n\n$(\"#subtitle0000000001\").hide();\n$(\"#subtitle0000000002\").hide();\n$(\"#subtitle0000000003\").hide();\n$(\"#ORG_Type\").hide();\n$(\"#ORG_Type_Select\").hide();\n$(\"#ORG_L1_Code_Select\").hide();\n$(\"#ORG_L2_Code_Select\").hide();\n$(\"#ORG_L3_Code_Select\").hide();\n$(\"#ORG_L4_Code_Select\").hide();\n$(\"#ORG_L5_Code_Select\").hide();\n$(\"#Ext_Org_Type\").hide();\n$(\"#Job_Ranks_Code\").hide();\n$(\"#Job_Ranks_Title\").hide();\n$(\"#Post_Code\").hide();\n$(\"#Post_Title\").hide();\n$(\"#ORG_Code_Selector\").hide();\n$(\"#ORG_Name\").hide();\n$(\"#Ext_ORG_Code_Selector\").hide();\n$(\"#Ext_ORG_Name\").hide();\n$(\"#Post_Code_Counter\").hide();\n$(\"#Job_Ranks_Counter\").hide();\n$(\"#Post_ID\").hide();\n$(\"#Job_Ranks_Code_Selector\").hide();\n$(\"#button_code\").hide();\n$(\"#ORG_Job_Code\").hide();\n$(\"#ORG_Job_Title\").hide();\n$(\"#Job_Code\").hide();\n$(\"#Jobs_Title\").hide();\n$(\"#ORG_Code\").hide();\n$(\"#submit0000000001\").hide();\n\n//پر كردن gridview  --- \n\nif ($(\"#Description\").getNumberRows() == 1 && $(\"#Description\").getValue (1,1) ==\"\") {\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true);\n  \t$(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  }else{\n\t$(\"#Description\").addRow();\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true); \n    $(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  };\n\n// نمايش فيلدها با توجه به سازمان داخلي يا خارجي\n\n$(\"#Ext_Int_ID\").setOnchange(function(EI) {\n  \n  EI = $(\"#Ext_Int_ID\").getValue();\n  \n  switch(true) {\n      \n    case ( EI == \"\" ):\n      $(\"#subtitle0000000001\").hide();\n      $(\"#subtitle0000000002\").hide();\n      $(\"#subtitle0000000003\").hide();\n      $(\"#ORG_Type\").hide();\n      $(\"#ORG_Type_Select\").hide();\n      $(\"#ORG_L1_Code_Select\").hide();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#Ext_Org_Type\").hide();\n      $(\"#Job_Ranks_Code\").hide();\n      $(\"#Job_Ranks_Title\").hide();\n      $(\"#Post_Code\").hide();\n      $(\"#Post_Title\").hide();\n      $(\"#ORG_Type\").setValue(\"\");\n      $(\"#ORG_Code\").setValue(\"\");\n      $(\"#Ext_Org_Type\").setValue(\"\");\n      alert (\"داخلي يا خارجي بودن سازمان را معين كنيد!\");\n      break;\n      \n    case ( EI == \"N\" ):\n      $(\"#subtitle0000000001\").show();\n      $(\"#subtitle0000000002\").hide();\n      $(\"#subtitle0000000003\").hide();\n      $(\"#ORG_Type\").show();\n      $(\"#ORG_Type_Select\").show();\n      $(\"#ORG_L1_Code_Select\").hide();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#Ext_Org_Type\").hide();\n      $(\"#Job_Ranks_Code\").hide();\n      $(\"#Job_Ranks_Title\").hide();\n      $(\"#Post_Code\").hide();\n      $(\"#Post_Title\").hide();\n      $(\"#ORG_Type\").setValue(\"\");\n      $(\"#ORG_Code\").setValue(\"\");\n      $(\"#Ext_Org_Type\").setValue(\"\");\n      break;   \n      \n    case ( EI == \"X\" ):\n      $(\"#subtitle0000000001\").hide();\n      $(\"#subtitle0000000002\").show();\n      $(\"#subtitle0000000003\").hide();\n      $(\"#ORG_Type\").hide();\n      $(\"#ORG_Type_Select\").hide();\n      $(\"#ORG_L1_Code_Select\").hide();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#Ext_Org_Type\").show();\n      $(\"#Job_Ranks_Code\").hide();\n      $(\"#Job_Ranks_Title\").hide();\n      $(\"#Post_Code\").hide();\n      $(\"#Post_Title\").hide();\n      $(\"#ORG_Type\").setValue(\"\");\n      $(\"#ORG_Code\").setValue(\"\");\n      $(\"#Ext_Org_Type\").setValue(\"\");      \n      break;      \n      \n  }\n  \n});\n\n\n// نمايش فيلدها با توجه به انتخاب اطلاعات شغل داخل شركت\n\n$(\"#ORG_Type_Select\").setOnchange(function(OTS) {\n  \n  OTS = $(\"#ORG_Type_Select\").getValue();\n  \n  switch(true) {\n      \n    case ( OTS == \"\" ):\n      $(\"#ORG_L1_Code_Select\").hide();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#subtitle0000000003\").hide();\n      $(\"#Post_ID\").hide();\n      $(\"#Job_Ranks_Code_Selector\").hide();\n      $(\"#Post_Title\").hide();\n      $(\"#Job_Ranks_Title\").hide();\n      $(\"#button_code\").hide();\n      $(\"#ORG_Job_Code\").hide();\n      $(\"#ORG_Job_Title\").hide();\n      break;\n      \n     case ( OTS != \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#subtitle0000000003\").show();\n      $(\"#Post_ID\").show();\n      $(\"#Job_Ranks_Code_Selector\").show();\n      $(\"#Post_Title\").show();\n      $(\"#Job_Ranks_Title\").show();\n      $(\"#button_code\").show();\n      $(\"#ORG_Job_Code\").show();\n      $(\"#ORG_Job_Title\").show();\n      $(\"#ORG_Code\").setValue($(\"#ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n$(\"#ORG_L1_Code_Select\").setOnchange(function(OL) {\n  \n  OL = $(\"#ORG_L1_Code_Select\").getValue();\n  \n  switch(true) {\n      \n    case ( OL == \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").hide();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      break;\n      \n     case ( OL != \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#ORG_Code\").setValue($(\"#ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n$(\"#ORG_L2_Code_Select\").setOnchange(function(OL) {\n  \n  OL = $(\"#ORG_L2_Code_Select\").getValue();\n  \n  switch(true) {\n      \n    case ( OL == \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").hide();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      break;\n      \n     case ( OL != \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").show();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#ORG_Code\").setValue($(\"#ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n$(\"#ORG_L3_Code_Select\").setOnchange(function(OL) {\n  \n  OL = $(\"#ORG_L3_Code_Select\").getValue();\n  \n  switch(true) {\n      \n    case ( OL == \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").show();\n      $(\"#ORG_L4_Code_Select\").hide();\n      $(\"#ORG_L5_Code_Select\").hide();\n      break;\n      \n     case ( OL != \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").show();\n      $(\"#ORG_L4_Code_Select\").show();\n      $(\"#ORG_L5_Code_Select\").hide();\n      $(\"#ORG_Code\").setValue($(\"#ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n$(\"#ORG_L4_Code_Select\").setOnchange(function(OL) {\n  \n  OL = $(\"#ORG_L4_Code_Select\").getValue();\n  \n  switch(true) {\n      \n    case ( OL == \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").show();\n      $(\"#ORG_L4_Code_Select\").show();\n      $(\"#ORG_L5_Code_Select\").hide();\n      break;\n      \n     case ( OL != \"\" ):\n      $(\"#ORG_L1_Code_Select\").show();\n      $(\"#ORG_L2_Code_Select\").show();\n      $(\"#ORG_L3_Code_Select\").show();\n      $(\"#ORG_L4_Code_Select\").show();\n      $(\"#ORG_L5_Code_Select\").show();\n      $(\"#ORG_Code\").setValue($(\"#ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n// نمايش فيلدها با توجه به انتخاب اطلاعات شغل خارج شركت\n\n$(\"#Ext_Org_Type\").setOnchange(function(EOT) {\n  \n  EOT = $(\"#Ext_Org_Type\").getValue();\n  \n  switch(true) {\n      \n    case ( EOT == \"\" ):\n      $(\"#subtitle0000000003\").hide();\n      $(\"#Post_ID\").hide();\n      $(\"#Job_Ranks_Code_Selector\").hide();\n      $(\"#Post_Title\").hide();\n      $(\"#Job_Ranks_Title\").hide();\n      $(\"#button_code\").hide();\n      $(\"#ORG_Job_Code\").hide();\n      $(\"#ORG_Job_Title\").hide();\n      break;\n      \n     case ( EOT != \"\" ):\n      $(\"#subtitle0000000003\").show();\n      $(\"#Post_ID\").show();\n      $(\"#Job_Ranks_Code_Selector\").show();\n      $(\"#Post_Title\").show();\n      $(\"#Job_Ranks_Title\").show();\n      $(\"#button_code\").show();\n      $(\"#ORG_Job_Code\").show();\n      $(\"#ORG_Job_Title\").show();\n      $(\"#ORG_Code\").setValue($(\"#Ext_ORG_Code_Selector\").getValue());\n      break;   \n      \n  }\n  \n});\n\n// ساختن كد تركيبي و كنترل فيلدهاي مربوط به آن\n\n$(\"#button_code\").find(\"button\").click(function(JRC,JRT,PID,PT,PC,OC,ON,EOC,EON,C1,C2,EI_ID,JRT_Condition,PT_Condition) {\n  \n  JRC = $(\"#Job_Ranks_Code_Selector\").getValue();\n  JRT = $(\"#Job_Ranks_Title\").getValue();\n  PID = $(\"#Post_ID\").getValue();\n  PT = $(\"#Post_Title\").getValue();\n  PC = $(\"#Post_Code\").getValue();\n  OC = $(\"#ORG_Code_Selector\").getValue();\n  ON = $(\"#ORG_Name\").getValue();\n  EOC = $(\"#Ext_ORG_Code_Selector\").getValue();\n  EON = $(\"#Ext_ORG_Name\").getValue();\n  EI_ID = $(\"#Ext_Int_ID\").getValue();\n  C1 = $(\"#Job_Ranks_Counter\").getValue();\n  C2 = $(\"#Post_Code_Counter\").getValue();\n  $(\"#submit0000000001\").hide();\n  \n  switch (true) {\n      \n    case (JRT == \"\"):\n      $(\"#Job_Ranks_Title\").getControl().css(\"background-color\", \"orange\");\n      $(\"#Job_Ranks_Title\").getControl().css(\"border\", \"1px solid red\");\n      alert(\"بايستي فيلد مربوطه تكميل شود\");\n      JRT_Condition = 0;\n      break;\n      \n    case (JRT != \"\"):\n      $(\"#Job_Ranks_Title\").getControl().css(\"background-color\", \"\");\n      $(\"#Job_Ranks_Title\").getControl().css(\"border\", \"1px solid green\");\n      JRT_Condition = 1;\n      break;\n      \n  }\n  \n  switch (true) {\n      \n    case (PT == \"\"):\n      $(\"#Post_Title\").getControl().css(\"background-color\", \"orange\");\n      $(\"#Post_Title\").getControl().css(\"border\", \"1px solid red\");\n      alert(\"بايستي فيلد مربوطه تكميل شود\");\n      PT_Condition = 0;\n      break;\n      \n    case (PT != \"\"):\n      $(\"#Post_Title\").getControl().css(\"background-color\", \"\");\n      $(\"#Post_Title\").getControl().css(\"border\", \"1px solid green\");\n      PT_Condition = 1;\n      break;\n      \n  }\n  \nif (JRT_Condition == 1 && PT_Condition == 1) {\n    \n    $(\"#submit0000000001\").show();\n  \n  \n  if (JRC == 99 ) {\n    \n    $(\"#Job_Ranks_Title\").attr('disabled',false);\n    \n    switch (true) {\n        \n      case (C1 < 9):   \n        JRC = '0' + (parseInt(C1) + 1);\n        break;\n        \n      case (C1 > 8):   \n        JRC = (parseInt(C1) + 1);\n        break;\n        \n    }\n  }   \n  \n  if (PID == 2) {\n    \n    $(\"#Post_Title\").attr('disabled',false);\n    \n    switch (true) {\n    \n      case (C2 < 8):   \n        PC = '000' + (parseInt(C2) + 1);\n        break;\n        \n      case (C2 > 8 && C2 < 99):   \n        PC = '00' + (parseInt(C2) + 1);\n        break;\n    \n      case (C2 > 98 && C2 < 999):   \n        PC = '0' + (parseInt(C2) + 1);\n        break;\n    \n      case (C2 > 998):   \n        PC = (parseInt(C2) + 1);\n        break;    \n    \n    }\n  }\n  \n  $(\"#Job_Ranks_Code\").setValue(JRC);\n  $(\"#Post_Code\").setValue(PC);\n  \n  switch(true) {\n      \n    case (EI_ID == \"N\"):\n      $(\"#ORG_Job_Code\").setValue(OC+\"-\"+PC+JRC);\n      $(\"#ORG_Job_Title\").setValue(\"سازمان : \"+ON+\" || \" +\"حوزه : \"+PT+\" || \"+\"رتبه : \"+JRT);\n      $(\"#Job_Code\").setValue(PC+JRC);\n      $(\"#Jobs_Title\").setValue(\"حوزه : \"+PT+\" || \"+\"رتبه : \"+JRT);\n      $(\"#Description\").setValue(\"اطلاعات مربوط به شغل ايجاد گرديد.\"+\"\\n\"+ $(\"#ORG_Job_Code\").getValue() + \" || \"\n                                 + $(\"#ORG_Job_Title\").getValue()\n                                 ,$(\"#Description\").getNumberRows(),'2');\n      break;      \n      \n    case (EI_ID == \"X\"):\n      $(\"#ORG_Job_Code\").setValue(EOC+\"-\"+PC+JRC);\n      $(\"#ORG_Job_Title\").setValue(\"نوع فعاليت در سازمان خارجي : \"+EON+\" || \" +\"تخصص : \"+PT+\" || \"+\"ديسيپلين : \"+JRT);\n      $(\"#Job_Code\").setValue(EOC+\"-\"+PC+JRC);\n      $(\"#Jobs_Title\").setValue(\"تخصص : \"+PT+\" || \"+\"ديسيپلين : \"+JRT);\n      $(\"#Description\").setValue(\"اطلاعات مربوط به شغل ايجاد گرديد.\"+\"\\n\"+ $(\"#ORG_Job_Code\").getValue() + \" || \"\n                                 + $(\"#ORG_Job_Title\").getValue()\n                                 ,$(\"#Description\").getNumberRows(),'2');\n      break; \n      \n  }\n    \n  } else {\n    \n    $(\"#ORG_Job_Code\").setValue(\"\");\n    $(\"#ORG_Job_Title\").setValue(\"\");\n    $(\"#Job_Code\").setValue(\"\");\n    $(\"#Jobs_Title\").setValue(\"\");\n    \n  }\n  \n});\n\n\n\n$(\"#Job_Ranks_Code_Selector\").setOnchange(function(JRC) {\n  \n  JRC = $(\"#Job_Ranks_Code_Selector\").getValue();\n  \n  if (JRC == 99){\n    \n    $(\"#Job_Ranks_Title\").getControl().attr('disabled',false);\n    \n  } else {\n    \n    $(\"#Job_Ranks_Title\").getControl().attr('disabled',true);\n  }\n  \n});\n\n$(\"#Post_ID\").setOnchange(function(PC) {\n  \n  PC = $(\"#Post_ID\").getValue();\n  \n  if (PC == 2){\n    \n    $(\"#Post_Title\").getControl().attr('disabled',false);\n    \n  } else {\n    \n    $(\"#Post_Title\").getControl().attr('disabled',true);\n  }\n  \n});  "},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"ايجاد اطلاعات شغلي","colSpan":8},{"type":"datetime","variable":"Time_Stamp","var_uid":"85095214862f726b21d0249058550685","dataType":"datetime","protectedValue":false,"id":"Time_Stamp","name":"Time_Stamp","label":"زمان ثبت اطلاعات","placeholder":"","hint":"","required":false,"mode":"disabled","format":"YYYY-MM-DD hh:mm:ss","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"true","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"Time_Stamp","colSpan":4}],[{"type":"grid","variable":"Description","var_uid":"94302368162f726dd6cd982050055460","dataType":"grid","protectedValue":false,"id":"Description","name":"Description","label":"درخواست / نظرات","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"txt_name1","name":"txt_name1","label":"نام و نام خانوادگي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"35%","width":100,"title":"نام و نام خانوادگي"},{"type":"textarea","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Desc_Details","name":"Desc_Details","label":"شرح","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"2","columnWidth":"65%","width":100,"title":"شرح"}],"data":[],"mode":"disabled","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"درخواست / نظرات","colSpan":8},{"type":"multipleFile","variable":"Upload_Files","var_uid":"46319580062f7273f9b00b7092174616","dataType":"multiplefile","protectedValue":false,"id":"Upload_Files","name":"Upload_Files","label":"مستندات مربوط به شغل","inputDocument":"","required":false,"dnd":false,"extensions":"*","size":"20","sizeUnity":"MB","mode":"disabled","multiple":false,"inp_doc_uid":"","var_name":"Upload_Files","colSpan":4}],[{"type":"dropdown","variable":"Ext_Int_ID","var_uid":"56347656262f734288e7e39063348005","dataType":"string","protectedValue":false,"id":"Ext_Int_ID","name":"Ext_Int_ID","label":"داخل/خارج شركت IOEC","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"","label":"انتخاب كنيد ..."},{"value":"N","label":"داخل شركت IOEC"},{"value":"X","label":"خارج شركت IOEC"}],"var_name":"Ext_Int_ID","colSpan":4},{"type":"text","variable":"ORG_Code","var_uid":"6148376466301cdd96adfb6018609856","dataType":"string","protectedValue":false,"id":"ORG_Code","name":"ORG_Code","label":"كد سازمان","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Code","colSpan":4},{"type":"hidden","variable":"txt_name","var_uid":"11959838862fa0e7ea61782052673797","dataType":"string","protectedValue":false,"id":"txt_name","name":"txt_name","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"txt_name","colSpan":4}],[{"type":"subtitle","id":"subtitle0000000001","label":"انتخاب اطلاعات شغل داخل شركت","colSpan":4},{"type":"text","variable":"ORG_Code_Selector","var_uid":"63607788062fa377f7bea78004816226","dataType":"string","protectedValue":false,"id":"ORG_Code_Selector","name":"ORG_Code_Selector","label":"كد سازمان داخلي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ORG_Code\nFROM PMT_TB100009\nWHERE ORG_Type = '@#ORG_Type'\n and Ext_Int_ID = 'N'\n and ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code = '@#ORG_L4_Code_Select'\n and ORG_L5_Code = '@#ORG_L5_Code_Select'\n and IsActive = 1","var_name":"ORG_Code_Selector","colSpan":4},{"type":"text","variable":"ORG_Name","var_uid":"30606079162fb419551a1b3062170398","dataType":"string","protectedValue":false,"id":"ORG_Name","name":"ORG_Name","label":"نام سازمان داخلي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ORG_Name\nFROM PMT_TB100009\nWHERE ORG_Type = '@#ORG_Type'\n and Ext_Int_ID = 'N'\n and ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code = '@#ORG_L4_Code_Select'\n and ORG_L5_Code = '@#ORG_L5_Code_Select'\n and IsActive = 1","var_name":"ORG_Name","colSpan":4}],[{"type":"dropdown","variable":"ORG_Type","var_uid":"85559082062f77e3d23ba13042745478","dataType":"string","protectedValue":false,"id":"ORG_Type","name":"ORG_Type","label":"انتخاب نوع سازمان داخلي","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"","label":"نوع سازمان را انتخاب كنيد"},{"value":"M","label":"كد 001 تا 100 || مديريت"},{"value":"D","label":"كد 101 تا 400 || واحدها"},{"value":"C","label":"كد 501 تا 700 ||  كار گروه‌ها و كميته‌ها"},{"value":"P","label":"كد 701 تا 999 || پروژه‌ها"}],"var_name":"ORG_Type","colSpan":4},{"type":"dropdown","variable":"ORG_Type_Select","var_uid":"19747924862f78107b08c23000947476","dataType":"string","protectedValue":false,"id":"ORG_Type_Select","name":"ORG_Type_Select","label":"انتخاب واحد سازماني","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT NULL ORG_Master_Code, 'سازمان را انتخاب كنيد' ORG_Master_Code\n\nUNION\n\nSELECT ORG_Master_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Type = '@#ORG_Type'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = 0\n and ORG_L2_Code = 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_Type_Select","colSpan":4},{"type":"dropdown","variable":"ORG_L1_Code_Select","var_uid":"16760253962f7814e316c33014806402","dataType":"string","protectedValue":false,"id":"ORG_L1_Code_Select","name":"ORG_L1_Code_Select","label":"انتخاب زير واحد سطح يك","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT 0 ORG_L1_Code, 'واحد را انتخاب كنيد' ORG_L1_Code\n\nUNION\n\nSELECT ORG_L1_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code <> 0\n and ORG_L2_Code = 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_L1_Code_Select","colSpan":4}],[{"type":"dropdown","variable":"ORG_L2_Code_Select","var_uid":"36380004862f78207157e92007552197","dataType":"string","protectedValue":false,"id":"ORG_L2_Code_Select","name":"ORG_L2_Code_Select","label":"انتخاب زير واحد سطح دو","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT 0 ORG_L2_Code, 'واحد را انتخاب كنيد' ORG_L2_Code\n\nUNION\n\nSELECT ORG_L2_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code <> 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_L2_Code_Select","colSpan":4},{"type":"dropdown","variable":"ORG_L3_Code_Select","var_uid":"39031982462f78360a45d96046307130","dataType":"string","protectedValue":false,"id":"ORG_L3_Code_Select","name":"ORG_L3_Code_Select","label":"انتخاب زير واحد سطح سه","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT 0 ORG_L3_Code, 'واحد را انتخاب كنيد' ORG_L3_Code\n\nUNION\n\nSELECT ORG_L3_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code <> 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_L3_Code_Select","colSpan":4},{"type":"dropdown","variable":"ORG_L4_Code_Select","var_uid":"86557006862f78cca477271056719823","dataType":"string","protectedValue":false,"id":"ORG_L4_Code_Select","name":"ORG_L4_Code_Select","label":"انتخاب زير واحد سطح چهار","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT 0 ORG_L4_Code, 'واحد را انتخاب كنيد' ORG_L4_Code\n\nUNION\n\nSELECT ORG_L4_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code <> 0\n and ORG_L5_Code = 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_L4_Code_Select","colSpan":4}],[{"type":"dropdown","variable":"ORG_L5_Code_Select","var_uid":"42700195362f78e99d69136065713148","dataType":"string","protectedValue":false,"id":"ORG_L5_Code_Select","name":"ORG_L5_Code_Select","label":"انتخاب واحد سازماني سطح پنج","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT 0 ORG_L5_Code, 'واحد را انتخاب كنيد' ORG_L5_Code\n\nUNION\n\nSELECT ORG_L5_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code = '@#ORG_L4_Code_Select'\n and ORG_L5_Code <> 0\n and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_L5_Code_Select","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"subtitle","id":"subtitle0000000002","label":"انتخاب اطلاعات شغل خارج شركت","colSpan":4},{"type":"text","variable":"Ext_ORG_Code_Selector","var_uid":"78042602562fa371565fda8090659642","dataType":"string","protectedValue":false,"id":"Ext_ORG_Code_Selector","name":"Ext_ORG_Code_Selector","label":"كد سازمان خارجي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ORG_Master_Code\nFROM PMT_TB100009\nWHERE ID = '@#Ext_Org_Type'\n and IsActive = 1","var_name":"Ext_ORG_Code_Selector","colSpan":4},{"type":"text","variable":"Ext_ORG_Name","var_uid":"16186523462fb51b7f27b79017615231","dataType":"string","protectedValue":false,"id":"Ext_ORG_Name","name":"Ext_ORG_Name","label":"نام سازمان خارجي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ORG_Name\nFROM PMT_TB100009\nWHERE ID = '@#Ext_Org_Type'\n and IsActive = 1","var_name":"Ext_ORG_Name","colSpan":4}],[{"type":"dropdown","variable":"Ext_Org_Type","var_uid":"77526855462f8b1d2c50ab5005555711","dataType":"string","protectedValue":false,"id":"Ext_Org_Type","name":"Ext_Org_Type","label":"انتخاب نوع سازمان خارجي","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT NULL ID, 'نوع سازمان را انتخاب كنيد' ID\n\nUNION\n\nSELECT ID, concat(ORG_Master_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE Ext_Int_ID = 'X'\nand IsActive = 1","dataVariable":"","options":[],"var_name":"Ext_Org_Type","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"subtitle","id":"subtitle0000000003","label":"ايجاد كد تركيبي","colSpan":4},{"type":"text","variable":"Job_Code","var_uid":"82876586962fa34f187fe89001739272","dataType":"string","protectedValue":false,"id":"Job_Code","name":"Job_Code","label":"كد شغل","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Job_Code","colSpan":3},{"type":"text","variable":"Jobs_Title","var_uid":"19854736363006916613ad4010443929","dataType":"string","protectedValue":false,"id":"Jobs_Title","name":"Jobs_Title","label":"عنوان شغل","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Jobs_Title","colSpan":5}],[{"type":"dropdown","variable":"Post_ID","var_uid":"4167480466305ad5e83f3d6056322756","dataType":"string","protectedValue":false,"id":"Post_ID","name":"Post_ID","label":"رديف حوزه سازماني / تخصص","defaultValue":"","placeholder":"","hint":"بايستي يك رديف پست سازماني / تخصص انتخاب شود ...","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ID, concat(Post_Code,\" || \",Post_Title)\nFROM PMT_TB100012 \nWHERE Ext_Int_ID = '@#Ext_Int_ID' and ORG_Code = '@#ORG_Code'  and IsActive = 1 or Ext_Int_ID = 'A'\nORDER BY Post_Code","dataVariable":"","options":[],"var_name":"Post_ID","colSpan":4},{"type":"text","variable":"Post_Code","var_uid":"71704101562fb7b7b6c43a6092186894","dataType":"string","protectedValue":false,"id":"Post_Code","name":"Post_Code","label":"كد حوزه سازماني / تخصص","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT Post_Code\nFROM PMT_TB100012 \nWHERE ID = '@#Post_ID'\n and Post_Code <> '9999'","var_name":"Post_Code","colSpan":2},{"type":"text","variable":"Post_Title","var_uid":"22045898462fa04baebd252085731360","dataType":"string","protectedValue":false,"id":"Post_Title","name":"Post_Title","label":"عنوان حوزه سازماني / تخصص","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT Post_Title\nFROM PMT_TB100012 \nWHERE ID = '@#Post_ID'\n and Post_Code <> '9999' ","var_name":"Post_Title","colSpan":4},{"type":"text","variable":"Post_Code_Counter","var_uid":"11636352562fb683d9099d4034140962","dataType":"string","protectedValue":false,"id":"Post_Code_Counter","name":"Post_Code_Counter","label":"شمارنده حوزه سازماني","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT count(ID)\nFROM PMT_TB100012 \nWHERE Ext_Int_ID = '@#Ext_Int_ID'\n and Ext_Int_ID <> 'A'\n and ORG_Code = '@#ORG_Code'","var_name":"Post_Code_Counter","colSpan":2}],[{"type":"dropdown","variable":"Job_Ranks_Code_Selector","var_uid":"82785034162f783c4be7e68012944460","dataType":"string","protectedValue":false,"id":"Job_Ranks_Code_Selector","name":"Job_Ranks_Code_Selector","label":"رديف رتبه شغلي / ديسيپلين","defaultValue":"","placeholder":"","hint":"بايستي يك رديف رتبه شغلي/ديسيپلين انتخاب شود","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT Job_Ranks_Code, concat(Job_Ranks_Code,\" || \",Job_Ranks_Title)\nFROM PMT_TB100011 \nWHERE Ext_Int_ID = '@#Ext_Int_ID' or Ext_Int_ID = 'A'\nORDER BY Job_Ranks_Code","dataVariable":"","options":[],"var_name":"Job_Ranks_Code_Selector","colSpan":4},{"type":"text","variable":"Job_Ranks_Title","var_uid":"35110473662f9f735beb039017547122","dataType":"string","protectedValue":false,"id":"Job_Ranks_Title","name":"Job_Ranks_Title","label":"عنوان رتبه شغلي / ديسيپلين","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT Job_Ranks_Title\nFROM PMT_TB100011 \nWHERE Job_Ranks_Code = '@#Job_Ranks_Code_Selector' and Job_Ranks_Code <> '99'","var_name":"Job_Ranks_Title","colSpan":4},{"type":"text","variable":"Job_Ranks_Code","var_uid":"90951538062fb7b3e98e217067719585","dataType":"string","protectedValue":false,"id":"Job_Ranks_Code","name":"Job_Ranks_Code","label":"كد رتبه شغلي / ديسيپلين","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Job_Ranks_Code","colSpan":2},{"type":"text","variable":"Job_Ranks_Counter","var_uid":"16156005862fb67f38c84e4060078182","dataType":"string","protectedValue":false,"id":"Job_Ranks_Counter","name":"Job_Ranks_Counter","label":"شمارنده رتبه شغلي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT count(ID)\nFROM PMT_TB100011 \nWHERE Ext_Int_ID = '@#Ext_Int_ID' \n and Ext_Int_ID <> 'A'","var_name":"Job_Ranks_Counter","colSpan":2}],[{"type":"button","id":"button_code","name":"button_code","label":"ساختن كد","colSpan":2},{"type":"text","variable":"ORG_Job_Code","var_uid":"91235351562fa37a38c70c4035249633","dataType":"string","protectedValue":false,"id":"ORG_Job_Code","name":"ORG_Job_Code","label":"كد تركيبي (سازمان + شغل)","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Code","colSpan":3},{"type":"text","variable":"ORG_Job_Title","var_uid":"89535522462fb1a0f157994089288690","dataType":"string","protectedValue":false,"id":"ORG_Job_Title","name":"ORG_Job_Title","label":"عنوان كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Title","colSpan":7}],[{"colSpan":4},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"ايجاد اطلاعات","colSpan":4},{"colSpan":4}]],"variables":[{"var_uid":"85095214862f726b21d0249058550685","prj_uid":"87554931662f221bf840458054832994","var_name":"Time_Stamp","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"46319580062f7273f9b00b7092174616","prj_uid":"87554931662f221bf840458054832994","var_name":"Upload_Files","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"56347656262f734288e7e39063348005","prj_uid":"87554931662f221bf840458054832994","var_name":"Ext_Int_ID","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"\",\"label\":\"انتخاب كنيد ...\"},{\"value\":\"N\",\"label\":\"داخل شركت IOEC\"},{\"value\":\"X\",\"label\":\"خارج شركت IOEC\"}]","inp_doc_uid":""},{"var_uid":"6148376466301cdd96adfb6018609856","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"11959838862fa0e7ea61782052673797","prj_uid":"87554931662f221bf840458054832994","var_name":"txt_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"63607788062fa377f7bea78004816226","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"30606079162fb419551a1b3062170398","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"85559082062f77e3d23ba13042745478","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Type","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"\",\"label\":\"نوع سازمان را انتخاب كنيد\"},{\"value\":\"M\",\"label\":\"كد 001 تا 100 || مديريت\"},{\"value\":\"D\",\"label\":\"كد 101 تا 400 || واحدها\"},{\"value\":\"C\",\"label\":\"كد 501 تا 700 ||  كار گروه‌ها و كميته‌ها\"},{\"value\":\"P\",\"label\":\"كد 701 تا 999 || پروژه‌ها\"}]","inp_doc_uid":""},{"var_uid":"19747924862f78107b08c23000947476","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Type_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT NULL ORG_Master_Code, 'سازمان را انتخاب كنيد' ORG_Master_Code\n\nUNION\n\n(SELECT ORG_Master_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Type = '@#ORG_Type' \n and ORG_L1_Code = 0\n and ORG_L2_Code = 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1\norder by ORG_Code)","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"16760253962f7814e316c33014806402","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_L1_Code_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT NULL ORG_L1_Code, 'زير واحد را انتخاب كنيد' ORG_L1_Code\n\nUNION\n\n(SELECT ORG_L1_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE  ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code <> 0\n and ORG_L2_Code = 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1\norder by ORG_Code desc)","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"36380004862f78207157e92007552197","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_L2_Code_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT NULL ORG_L2_Code, 'زير واحد را انتخاب كنيد' ORG_L2_Code\n\nUNION\n\n(SELECT ORG_L2_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE  ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code <> 0\n and ORG_L3_Code = 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1\norder by ORG_Code desc)","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"39031982462f78360a45d96046307130","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_L3_Code_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT NULL ORG_L3_Code, 'زير واحد را انتخاب كنيد' ORG_L3_Code\n\nUNION\n\n(SELECT ORG_L3_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE  ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code <> 0\n and ORG_L4_Code = 0\n and ORG_L5_Code = 0\n and IsActive = 1\norder by ORG_Code desc)","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"86557006862f78cca477271056719823","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_L4_Code_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT NULL ORG_L4_Code, 'زير واحد را انتخاب كنيد' ORG_L4_Code\n\nUNION\n\n(SELECT ORG_L4_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE  ORG_Master_Code = '@#ORG_Type_Select'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code <> 0\n and ORG_L5_Code = 0\n and IsActive = 1\norder by ORG_Code desc)","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"42700195362f78e99d69136065713148","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_L5_Code_Select","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"SELECT 0 ORG_L5_Code, 'واحد را انتخاب كنيد' ORG_L5_Code\n\nUNION\n\nSELECT ORG_L5_Code, concat(ORG_Code,\" || \",ORG_Name)\nFROM PMT_TB100009 \nWHERE ORG_Master_Code = '@#ORG_Type_Select'\n and Ext_Int_ID = 'N'\n and ORG_L1_Code = '@#ORG_L1_Code_Select'\n and ORG_L2_Code = '@#ORG_L2_Code_Select'\n and ORG_L3_Code = '@#ORG_L3_Code_Select'\n and ORG_L4_Code = '@#ORG_L4_Code_Select'\n and ORG_L5_Code <> 0\n and IsActive = 1","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"78042602562fa371565fda8090659642","prj_uid":"87554931662f221bf840458054832994","var_name":"Ext_ORG_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"16186523462fb51b7f27b79017615231","prj_uid":"87554931662f221bf840458054832994","var_name":"Ext_ORG_Name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"77526855462f8b1d2c50ab5005555711","prj_uid":"87554931662f221bf840458054832994","var_name":"Ext_Org_Type","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"82876586962fa34f187fe89001739272","prj_uid":"87554931662f221bf840458054832994","var_name":"Job_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"19854736363006916613ad4010443929","prj_uid":"87554931662f221bf840458054832994","var_name":"Jobs_Title","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"4167480466305ad5e83f3d6056322756","prj_uid":"87554931662f221bf840458054832994","var_name":"Post_ID","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"71704101562fb7b7b6c43a6092186894","prj_uid":"87554931662f221bf840458054832994","var_name":"Post_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"22045898462fa04baebd252085731360","prj_uid":"87554931662f221bf840458054832994","var_name":"Post_Title","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"11636352562fb683d9099d4034140962","prj_uid":"87554931662f221bf840458054832994","var_name":"Post_Code_Counter","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"82785034162f783c4be7e68012944460","prj_uid":"87554931662f221bf840458054832994","var_name":"Job_Ranks_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"35110473662f9f735beb039017547122","prj_uid":"87554931662f221bf840458054832994","var_name":"Job_Ranks_Title","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"90951538062fb7b3e98e217067719585","prj_uid":"87554931662f221bf840458054832994","var_name":"Job_Ranks_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"16156005862fb67f38c84e4060078182","prj_uid":"87554931662f221bf840458054832994","var_name":"Job_Ranks_Counter","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"91235351562fa37a38c70c4035249633","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"89535522462fb1a0f157994089288690","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2023-06-11 12:54:08]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>38705444362f725ae2cc315041883494</dyn_uid>
+        <dyn_title><![CDATA[درخواست ايجاد / اصلاح اطلاعات شغلي]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[87554931662f221bf840458054832994\38705444362f725ae2cc315041883494]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"درخواست ايجاد / اصلاح اطلاعات شغلي","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"38705444362f725ae2cc315041883494","name":"درخواست ايجاد / اصلاح اطلاعات شغلي","description":"","mode":"edit","script":{"type":"js","code":"//نمايش صفحه\n\n$(\"#38705444362f725ae2cc315041883494\").css({\"backgroundColor\":\"#ccccff\"});\n$(\"#38705444362f725ae2cc315041883494\").css({\"border\":\"3px double #336699\"});\n\n\n$(\"#title0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#336699\",\"border-radius\":\"5px\"});\n$(\"#title0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#submit0000000001\").css({\"font-family\":\"b titr\"});\n\n\n//پر كردن gridview  --- \n\nif ($(\"#Description\").getNumberRows() == 1 && $(\"#Description\").getValue (1,1) ==\"\") {\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',false);\n  \t$(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  }else{\n\t$(\"#Description\").addRow();\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',false); \n    $(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  };\n\n// نمايش فيلدها با توجه به نوع تغييرات\n\n$(\"#ORG_Job_Title_Search\").hide();\n$(\"#ORG_Job_Code_Selector\").hide();\n$(\"#ORG_Job_Title_Show\").hide();\n$(\"#ID_Detector\").hide();\n\n$(\"#Select_Reg_Type\").setOnchange(function(SRT,OJC) {\n  \n  SRT = $(\"#Select_Reg_Type\").getValue();\n  OJC = $(\"#ORG_Job_Code_Selector\").getValue();\n  \n  switch(true){\n   \n    case ( SRT == 1 ):\n      $(\"#ORG_Job_Title_Search\").hide();\n\t  $(\"#ORG_Job_Code_Selector\").hide();\n      $(\"#ORG_Job_Title_Show\").hide();\n      $(\"#ORG_Job_Code_Selector\").setValue(\"\");\n      $(\"#Description\").setValue(\"\",$(\"#Description\").getNumberRows(),'2');\n      $(\"#submit0000000001\").show();\n      break;\n      \n    case ( SRT == 2 ):\n      $(\"#ORG_Job_Title_Search\").show();\n\t  $(\"#ORG_Job_Code_Selector\").show();\n      $(\"#ORG_Job_Title_Show\").show();\n      $(\"#Description\").setValue(\"\",$(\"#Description\").getNumberRows(),'2');\n      $(\"#submit0000000001\").hide();\n      break;\n      \n  }\n  \n});  \n$(\"#ORG_Job_Code_Selector\").setOnchange(function(SRT,OJC,OJT) {\n  \n  SRT = $(\"#Select_Reg_Type\").getValue();\n  OJC = $(\"#ORG_Job_Code_Selector\").getValue();\n  OJT = $(\"#ORG_Job_Title_Show\").getValue();\n  \n  \n  switch(true){\n   \n    case ( OJC == \"\"):\n      $(\"#submit0000000001\").hide();\n      break;\n      \n    case ( OJC != \"\" ):\n      $(\"#submit0000000001\").show();\n      $(\"#Description\").setValue(\"اطلاعات شغلي زير جهت حذف اعلام مي گردد : \" + \"\\n\"\n                                 + OJC + \" || \" + OJT +\"\\n\"\n                                 + \"توضيحات شغل جايگزين (در صورت نياز) :\",$(\"#Description\").getNumberRows(),'2');\n      break;      \n      \n  }  \n  \n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"درخواست ايجاد / اصلاح اطلاعات شغلي","colSpan":12}],[{"type":"grid","variable":"Description","var_uid":"94302368162f726dd6cd982050055460","dataType":"grid","protectedValue":false,"id":"Description","name":"Description","label":"درخواست / نظرات","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"txt_name1","name":"txt_name1","label":"نام و نام خانوادگي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"35%","width":100,"title":"نام و نام خانوادگي"},{"type":"textarea","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Desc_Details","name":"Desc_Details","label":"شرح","defaultValue":"","placeholder":"","hint":"","required":true,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"3","columnWidth":"65%","width":100,"title":"شرح"}],"data":[],"mode":"disabled","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"درخواست / نظرات","colSpan":9},{"type":"multipleFile","variable":"Upload_Files","var_uid":"46319580062f7273f9b00b7092174616","dataType":"multiplefile","protectedValue":false,"id":"Upload_Files","name":"Upload_Files","label":"مستندات مربوط به شغل","inputDocument":"","required":false,"dnd":false,"extensions":"*","size":"20","sizeUnity":"MB","mode":"parent","multiple":false,"inp_doc_uid":"","var_name":"Upload_Files","colSpan":3}],[{"type":"radio","variable":"Select_Reg_Type","var_uid":"7929992676300880ad68ff4003561903","dataType":"string","protectedValue":false,"id":"Select_Reg_Type","name":"Select_Reg_Type","label":"نوع تغييرات اطلاعات","defaultValue":"1","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"ايجاد"},{"value":"2","label":"حذف / جايگزيني"}],"var_name":"Select_Reg_Type","colSpan":4},{"colSpan":4},{"colSpan":4}],[{"type":"text","variable":"ORG_Job_Title_Search","var_uid":"243865966630212097dd473052135166","dataType":"string","protectedValue":false,"id":"ORG_Job_Title_Search","name":"ORG_Job_Title_Search","label":"جستجوي عنوان / كد تركيبي","defaultValue":"","placeholder":"عنوان را جستجو كنيد ...","hint":"با توجه به عنوان كد تركيبي جستجو شده امكان انتخاب ركورد جهت حذف، جايگزيني ايجاد مي‌شود ...","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Title_Search","colSpan":4},{"type":"dropdown","variable":"ORG_Job_Code_Selector","var_uid":"2229614256302128831fc12068201842","dataType":"string","protectedValue":false,"id":"ORG_Job_Code_Selector","name":"ORG_Job_Code_Selector","label":"انتخاب كد تركيبي (سازمان + شغل)","defaultValue":"","placeholder":"","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT NULL ORG_Job_Code, 'كد تركيبي را انتخاب كنيد ...' ORG_Job_Code\n\nUNION\n\nSELECT ORG_Job_Code, CONCAT (ORG_Job_Code,\" || \",ORG_Job_Title)\nFROM PMT_TB110007\nWHERE ORG_Job_Title LIKE \"%@#ORG_Job_Title_Search%\" and IsActive = 1","dataVariable":"","options":[],"var_name":"ORG_Job_Code_Selector","colSpan":8}],[{"colSpan":4},{"type":"text","variable":"ORG_Job_Title_Show","var_uid":"73257446263048c434475c0029990741","dataType":"string","protectedValue":false,"id":"ORG_Job_Title_Show","name":"ORG_Job_Title_Show","label":"عنوان كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ORG_Job_Title\nFROM PMT_TB110007\nWHERE ID = '@#ID_Detector'","var_name":"ORG_Job_Title_Show","colSpan":8}],[{"type":"hidden","variable":"txt_name","var_uid":"11959838862fa0e7ea61782052673797","dataType":"string","protectedValue":false,"id":"txt_name","name":"txt_name","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"txt_name","colSpan":2},{"type":"text","variable":"ID_Detector","var_uid":"25778198263034a21c2d9e9024093521","dataType":"string","protectedValue":false,"id":"ID_Detector","name":"ID_Detector","label":"رديف شغلي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ID\nFROM PMT_TB110007\nWHERE ORG_Job_Code = '@#ORG_Job_Code_Selector' and IsActive = 1","var_name":"ID_Detector","colSpan":2},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"ثبت درخواست","colSpan":4},{"colSpan":2},{"colSpan":2}]],"variables":[{"var_uid":"46319580062f7273f9b00b7092174616","prj_uid":"87554931662f221bf840458054832994","var_name":"Upload_Files","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"7929992676300880ad68ff4003561903","prj_uid":"87554931662f221bf840458054832994","var_name":"Select_Reg_Type","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"ايجاد"},{"value":"2","label":"حذف / جايگزيني"}],"inp_doc_uid":""},{"var_uid":"243865966630212097dd473052135166","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title_Search","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2229614256302128831fc12068201842","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"73257446263048c434475c0029990741","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title_Show","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"11959838862fa0e7ea61782052673797","prj_uid":"87554931662f221bf840458054832994","var_name":"txt_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"25778198263034a21c2d9e9024093521","prj_uid":"87554931662f221bf840458054832994","var_name":"ID_Detector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2022-09-10 15:28:36]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>52459716762f725c517aa74058016728</dyn_uid>
+        <dyn_title><![CDATA[حذف اطلاعات]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[87554931662f221bf840458054832994\52459716762f725c517aa74058016728]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"حذف اطلاعات","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"52459716762f725c517aa74058016728","name":"حذف اطلاعات","description":"","mode":"edit","script":{"type":"js","code":"//نمايش صفحه\n\n$(\"#52459716762f725c517aa74058016728\").css({\"backgroundColor\":\"#ccccff\"});\n$(\"#52459716762f725c517aa74058016728\").css({\"border\":\"3px double #336699\"});\n\n\n$(\"#title0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#336699\",\"border-radius\":\"5px\"});\n$(\"#title0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#993366\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#submit0000000001\").css({\"font-family\":\"b titr\"});\n\n\n//پر كردن gridview  --- \n\nif ($(\"#Description\").getNumberRows() == 1 && $(\"#Description\").getValue (1,1) ==\"\") {\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true);\n  \t$(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  }else{\n\t$(\"#Description\").addRow();\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true); \n    $(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  };\n\n// نمايش فيلدها با توجه به نوع تغييرات\n\n$(\"#Description\").setValue(\"اطلاعات مربوط به كد تركيبي زير حذف گرديد ...\"+\"\\n\"\n                           +$(\"#ORG_Job_Code_Selector\").getValue()+\" || \"\n                           +$(\"#ORG_Job_Title_Show\").getValue(),$(\"#Description\").getNumberRows(),'2');\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"حذف اطلاعات","colSpan":8},{"type":"datetime","variable":"Time_Stamp","var_uid":"85095214862f726b21d0249058550685","dataType":"datetime","protectedValue":false,"id":"Time_Stamp","name":"Time_Stamp","label":"زمان ثبت اطلاعات","placeholder":"","hint":"","required":false,"mode":"disabled","format":"YYYY-MM-DD hh:mm:ss","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"true","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"Time_Stamp","colSpan":4}],[{"type":"grid","variable":"Description","var_uid":"94302368162f726dd6cd982050055460","dataType":"grid","protectedValue":false,"id":"Description","name":"Description","label":"درخواست / نظرات","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"txt_name1","name":"txt_name1","label":"نام و نام خانوادگي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"35%","width":100,"title":"نام و نام خانوادگي"},{"type":"textarea","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Desc_Details","name":"Desc_Details","label":"شرح","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"2","columnWidth":"65%","width":100,"title":"شرح"}],"data":[],"mode":"disabled","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"درخواست / نظرات","colSpan":8},{"type":"multipleFile","variable":"Upload_Files","var_uid":"46319580062f7273f9b00b7092174616","dataType":"multiplefile","protectedValue":false,"id":"Upload_Files","name":"Upload_Files","label":"مستندات مربوط به شغل","inputDocument":"","required":false,"dnd":false,"extensions":"*","size":"20","sizeUnity":"MB","mode":"disabled","multiple":false,"inp_doc_uid":"","var_name":"Upload_Files","colSpan":4}],[{"type":"subtitle","id":"subtitle0000000001","label":"اطلاعات حذفي","colSpan":4},{"type":"hidden","variable":"txt_name","var_uid":"11959838862fa0e7ea61782052673797","dataType":"string","protectedValue":false,"id":"txt_name","name":"txt_name","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"txt_name","colSpan":4},{"colSpan":4}],[{"type":"text","variable":"ORG_Job_Code_Selector","var_uid":"2229614256302128831fc12068201842","dataType":"string","protectedValue":false,"id":"ORG_Job_Code_Selector","name":"ORG_Job_Code_Selector","label":"كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Code_Selector","colSpan":4},{"type":"text","variable":"ORG_Job_Title_Show","var_uid":"73257446263048c434475c0029990741","dataType":"string","protectedValue":false,"id":"ORG_Job_Title_Show","name":"ORG_Job_Title_Show","label":"عنوان كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Title_Show","colSpan":8}],[{"type":"radio","variable":"Replacement","var_uid":"46490478563047056d203c9015355596","dataType":"string","protectedValue":false,"id":"Replacement","name":"Replacement","label":"آيا نياز به ايجاد اطلاعات جديد (جايگزيني) وجود دارد؟","defaultValue":"0","hint":"","required":false,"mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"آري"},{"value":"0","label":"خير"}],"var_name":"Replacement","colSpan":12}],[{"colSpan":4},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"حذف اطلاعات","colSpan":4},{"colSpan":4}]],"variables":[{"var_uid":"85095214862f726b21d0249058550685","prj_uid":"87554931662f221bf840458054832994","var_name":"Time_Stamp","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"46319580062f7273f9b00b7092174616","prj_uid":"87554931662f221bf840458054832994","var_name":"Upload_Files","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"11959838862fa0e7ea61782052673797","prj_uid":"87554931662f221bf840458054832994","var_name":"txt_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2229614256302128831fc12068201842","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"73257446263048c434475c0029990741","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title_Show","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"46490478563047056d203c9015355596","prj_uid":"87554931662f221bf840458054832994","var_name":"Replacement","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"آري\"},{\"value\":\"0\",\"label\":\"خير\"}]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2022-08-23 16:08:25]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>71408081062f725cf9e6a97036240638</dyn_uid>
+        <dyn_title><![CDATA[ثبت و اطلاع‌رساني اطلاعات]]></dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[87554931662f221bf840458054832994\71408081062f725cf9e6a97036240638]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"ثبت و اطلاع‌رساني اطلاعات","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"71408081062f725cf9e6a97036240638","name":"ثبت و اطلاع‌رساني اطلاعات","description":"","mode":"edit","script":{"type":"js","code":"//نمايش صفحه\n\n$(\"#71408081062f725cf9e6a97036240638\").css({\"backgroundColor\":\"#ccccff\"});\n$(\"#71408081062f725cf9e6a97036240638\").css({\"border\":\"3px double #336699\"});\n\n$(\"#title0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#336699\",\"border-radius\":\"5px\"});\n$(\"#title0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000001\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#669933\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000001\").css({\"text-align\":\"center\"});\n\n$(\"#subtitle0000000002\").css({\"font-family\":\"b Titr\",\"color\":\"#ffffff\",\"background-color\":\"#993366\",\"border-radius\":\"5px\"});\n$(\"#subtitle0000000002\").css({\"text-align\":\"center\"});\n\n\n$(\"#submit0000000001\").css({\"font-family\":\"b titr\"});\n\n\n//پر كردن gridview  --- \n\nif ($(\"#Description\").getNumberRows() == 1 && $(\"#Description\").getValue (1,1) ==\"\") {\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true);\n  \t$(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  }else{\n\t$(\"#Description\").addRow();\n\t$('#Description').getControl($(\"#Description\").getNumberRows(),'2').attr('disabled',true); \n    $(\"#Description\").setValue($(\"#txt_name\").getValue(),$(\"#Description\").getNumberRows(),'1');\n  };\n\n$(\"#Description\").setValue(\"تغييرات اعمال شده مشاهده گرديد ...\",$(\"#Description\").getNumberRows(),'2');\n\n// نمايش فرم با توجه به نوع درخواست (ايجاد/حذف/جايگزيني)\n\n$(\"#Select_Reg_Type\").hide();\n$(\"#Replacement\").hide();\n\nvar SRT = $(\"#Select_Reg_Type\").getValue();\nvar REP = $(\"#Replacement\").getValue();\n\nswitch (true) {\n \n  case ( SRT == 1):\n    $(\"#subtitle0000000001\").show();\n    $(\"#ORG_Job_Code\").show();\n    $(\"#ORG_Job_Title\").show();\n    $(\"#subtitle0000000002\").hide();\n    $(\"#ORG_Job_Code_Selector\").hide();\n    $(\"#ORG_Job_Title_Show\").hide();\n    break;\n    \n  case ( SRT == 2 && REP == 1):\n    $(\"#subtitle0000000001\").show();\n    $(\"#ORG_Job_Code\").show();\n    $(\"#ORG_Job_Title\").show();\n    $(\"#subtitle0000000002\").show();\n    $(\"#ORG_Job_Code_Selector\").show();\n    $(\"#ORG_Job_Title_Show\").show();\n    break;\n    \n  case ( SRT == 2 && REP == 0):\n    $(\"#subtitle0000000001\").hide();\n    $(\"#ORG_Job_Code\").hide();\n    $(\"#ORG_Job_Title\").hide();\n    $(\"#subtitle0000000002\").show();\n    $(\"#ORG_Job_Code_Selector\").show();\n    $(\"#ORG_Job_Title_Show\").show();\n    break;     \n    \n}"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"ثبت و اطلاع‌رساني اطلاعات","colSpan":12}],[{"type":"grid","variable":"Description","var_uid":"94302368162f726dd6cd982050055460","dataType":"grid","protectedValue":false,"id":"Description","name":"Description","label":"درخواست / نظرات","hint":"","required":false,"columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"txt_name1","name":"txt_name1","label":"نام و نام خانوادگي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"30%","width":100,"title":"نام و نام خانوادگي"},{"type":"textarea","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"Desc_Details","name":"Desc_Details","label":"شرح","defaultValue":"","placeholder":"","hint":"","required":false,"validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","rows":"3","columnWidth":"70%","width":100,"title":"شرح"}],"data":[],"mode":"disabled","layout":"responsive","pageSize":"0","addRow":false,"deleteRow":false,"title":"درخواست / نظرات","colSpan":8},{"type":"multipleFile","variable":"Upload_Files","var_uid":"46319580062f7273f9b00b7092174616","dataType":"multiplefile","protectedValue":false,"id":"Upload_Files","name":"Upload_Files","label":"مستندات مربوط به شغل","inputDocument":"","required":false,"dnd":false,"extensions":"*","size":"20","sizeUnity":"MB","mode":"disabled","multiple":false,"inp_doc_uid":"","var_name":"Upload_Files","colSpan":4}],[{"type":"subtitle","id":"subtitle0000000001","label":"اطلاعات ثبت شده در پايگاه داده","colSpan":4},{"type":"hidden","variable":"txt_name","var_uid":"11959838862fa0e7ea61782052673797","dataType":"string","protectedValue":false,"id":"txt_name","name":"txt_name","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"txt_name","colSpan":8}],[{"type":"text","variable":"ORG_Job_Code","var_uid":"91235351562fa37a38c70c4035249633","dataType":"string","protectedValue":false,"id":"ORG_Job_Code","name":"ORG_Job_Code","label":"كد تركيبي (سازمان + شغل)","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Code","colSpan":4},{"type":"text","variable":"ORG_Job_Title","var_uid":"89535522462fb1a0f157994089288690","dataType":"string","protectedValue":false,"id":"ORG_Job_Title","name":"ORG_Job_Title","label":"عنوان كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Title","colSpan":8}],[{"type":"subtitle","id":"subtitle0000000002","label":"اطلاعات حذف شده از پايگاه داده","colSpan":4},{"colSpan":8}],[{"type":"text","variable":"ORG_Job_Code_Selector","var_uid":"2229614256302128831fc12068201842","dataType":"string","protectedValue":false,"id":"ORG_Job_Code_Selector","name":"ORG_Job_Code_Selector","label":"كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Code_Selector","colSpan":4},{"type":"text","variable":"ORG_Job_Title_Show","var_uid":"73257446263048c434475c0029990741","dataType":"string","protectedValue":false,"id":"ORG_Job_Title_Show","name":"ORG_Job_Title_Show","label":"عنوان كد تركيبي","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"ORG_Job_Title_Show","colSpan":8}],[{"type":"text","variable":"Select_Reg_Type","var_uid":"7929992676300880ad68ff4003561903","dataType":"string","protectedValue":false,"id":"Select_Reg_Type","name":"Select_Reg_Type","label":"نوع درخواست","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Select_Reg_Type","colSpan":4},{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"اتمام فرآيند","colSpan":4},{"type":"text","variable":"Replacement","var_uid":"46490478563047056d203c9015355596","dataType":"string","protectedValue":false,"id":"Replacement","name":"Replacement","label":"وضعيت حذف يا جايگزيني","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Replacement","colSpan":4}]],"variables":[{"var_uid":"46319580062f7273f9b00b7092174616","prj_uid":"87554931662f221bf840458054832994","var_name":"Upload_Files","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"11959838862fa0e7ea61782052673797","prj_uid":"87554931662f221bf840458054832994","var_name":"txt_name","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"91235351562fa37a38c70c4035249633","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"89535522462fb1a0f157994089288690","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2229614256302128831fc12068201842","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Code_Selector","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"73257446263048c434475c0029990741","prj_uid":"87554931662f221bf840458054832994","var_name":"ORG_Job_Title_Show","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"7929992676300880ad68ff4003561903","prj_uid":"87554931662f221bf840458054832994","var_name":"Select_Reg_Type","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"ايجاد\"},{\"value\":\"2\",\"label\":\"حذف \\/ جايگزيني\"}]","inp_doc_uid":""},{"var_uid":"46490478563047056d203c9015355596","prj_uid":"87554931662f221bf840458054832994","var_name":"Replacement","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"آري\"},{\"value\":\"0\",\"label\":\"خير\"}]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2022-08-23 16:23:49]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>26458740262f72605ab03c9053389353</step_uid>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>26879882862f725ba0d8bd6067551026</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>84173583962fcd0c0af6c69032943428</step_uid>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>83428955062f22329d266e7063926560</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>71408081062f725cf9e6a97036240638</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>85952758762fcd068a94435080621482</step_uid>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>38705444362f725ae2cc315041883494</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>90719604462fcd0f2adb777035073142</step_uid>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>52459716762f725c517aa74058016728</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>27706909162fcce553ea041024891443</tri_uid>
+        <tri_title>Full Name</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$aUser = userInfo(@@USER_LOGGED);
+@@txt_name = $aUser['firstname'].' '. $aUser['lastname'];]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>32269287162fccea6c8fb15028190952</tri_uid>
+        <tri_title>Time_Stamp</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@Time_Stamp = getCurrentDate() . " " . getCurrentTime();]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>3825378416304757eb44a28058589499</tri_uid>
+        <tri_title>Delete</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$Registered_By_USR_UID = @@ExecuteID;
+$Requested_By_USR_UID = @@RequestID;
+$Time_Stamp = @@Time_Stamp;
+
+$ID_Detector = @@ID_Detector;
+	
+$IsDelete = 0;
+$IsActive = 0;
+	
+$Update_sql = "UPDATE PMT_TB110007 SET
+Registered_By_USR_UID = '$Registered_By_USR_UID',
+Requested_By_USR_UID = '$Requested_By_USR_UID',
+Time_Stamp = '$Time_Stamp',
+IsDelete = '$IsDelete',
+IsActive = '$IsActive' 
+WHERE ID = '$ID_Detector'";
+	
+executeQuery ($Update_sql);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>43984985362fcce6ca65114029180029</tri_uid>
+        <tri_title>Request Assign</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@RequestID = @@USER_LOGGED;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>84426879862fcce21ad3ea9090508959</tri_uid>
+        <tri_title>Execute Assign</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@ExecuteID = @@USER_LOGGED;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>90222167962fccec11fa820017185217</tri_uid>
+        <tri_title>Insert</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>87554931662f221bf840458054832994</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$Registered_By_USR_UID = @@ExecuteID;
+$Requested_By_USR_UID = @@RequestID;
+$Time_Stamp = @@Time_Stamp;
+
+$ORG_Code = @@ORG_Code;
+$Job_Code = @@Job_Code;
+$Jobs_Title = @@Jobs_Title;
+$ORG_Job_Code = @@ORG_Job_Code;
+$ORG_Job_Title = @@ORG_Job_Title;
+
+$Post_Code = @@Post_Code;
+$Post_Title = @@Post_Title;
+
+$Ext_Int_ID = @@Ext_Int_ID;
+$ID_Detector = @@ID_Detector;
+
+$IsDelete = 0;
+$IsActive = 1;
+	
+$Insert_sql = "INSERT INTO PMT_TB110007 
+(Registered_By_USR_UID
+,Requested_By_USR_UID
+,Time_Stamp
+,IsDelete
+,IsActive
+,ORG_Code
+,Job_Code
+,Jobs_Title
+,ORG_Job_Code
+,ORG_Job_Title
+,Ext_Int_ID)
+
+VALUES 
+('$Registered_By_USR_UID'
+,'$Requested_By_USR_UID'
+,'$Time_Stamp'
+,'$IsDelete'
+,'$IsActive'
+,'$ORG_Code'
+,'$Job_Code'
+,'$Jobs_Title'
+,'$ORG_Job_Code'
+,'$ORG_Job_Title'
+,'$Ext_Int_ID')";
+
+executeQuery ($Insert_sql);
+
+if (@@Post_ID == '2'){
+		
+		$IsDelete = 0;
+		$IsActive = 1;
+	
+		$Insert_Post_Code_sql = "INSERT INTO PMT_TB100012 
+		(Registered_By_USR_UID
+		,Requested_By_USR_UID
+		,Time_Stamp
+		,IsDelete
+		,IsActive
+		,Post_Code
+		,Post_Title
+		,ORG_Code
+		,Ext_Int_ID)
+
+	VALUES 
+		('$Registered_By_USR_UID'
+		,'$Requested_By_USR_UID'
+		,'$Time_Stamp'
+		,'$IsDelete'
+		,'$IsActive'
+		,'$Post_Code'
+		,'$Post_Title'
+		,'$ORG_Code'
+		,'$Ext_Int_ID')";
+		
+	executeQuery ($Insert_Post_Code_sql);
+		
+}
+	
+if (@@Job_Ranks_Code_Selector == '99'){
+		
+		$IsDelete = 0;
+		$IsActive = 1;
+	
+		$Insert_Job_Ranks_Code_sql = "INSERT INTO PMT_TB100011 
+		(Registered_By_USR_UID
+		,Requested_By_USR_UID
+		,Time_Stamp
+		,IsDelete
+		,IsActive
+		,Job_Ranks_Code
+		,Job_Ranks_Title
+		,Ext_Int_ID)
+
+	VALUES 
+		('$Registered_By_USR_UID'
+		,'$Requested_By_USR_UID'
+		,'$Time_Stamp'
+		,'$IsDelete'
+		,'$IsActive'
+		,'$Job_Ranks_Code'
+		,'$Job_Ranks_Title'
+		,'$Ext_Int_ID')";
+		
+	executeQuery ($Insert_Job_Ranks_Code_sql);
+		
+}
+	
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-1</step_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <tri_uid>90222167962fccec11fa820017185217</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>-1</step_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <tri_uid>3825378416304757eb44a28058589499</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>26458740262f72605ab03c9053389353</step_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <tri_uid>27706909162fcce553ea041024891443</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>26458740262f72605ab03c9053389353</step_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <tri_uid>32269287162fccea6c8fb15028190952</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>26458740262f72605ab03c9053389353</step_uid>
+        <tas_uid>18914794962f2228a3c78d6016797104</tas_uid>
+        <tri_uid>84426879862fcce21ad3ea9090508959</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>84173583962fcd0c0af6c69032943428</step_uid>
+        <tas_uid>83428955062f22329d266e7063926560</tas_uid>
+        <tri_uid>27706909162fcce553ea041024891443</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>85952758762fcd068a94435080621482</step_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <tri_uid>27706909162fcce553ea041024891443</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>85952758762fcd068a94435080621482</step_uid>
+        <tas_uid>12307739262f221e9a95942076948454</tas_uid>
+        <tri_uid>43984985362fcce6ca65114029180029</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>90719604462fcd0f2adb777035073142</step_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <tri_uid>27706909162fcce553ea041024891443</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>90719604462fcd0f2adb777035073142</step_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <tri_uid>32269287162fccea6c8fb15028190952</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>90719604462fcd0f2adb777035073142</step_uid>
+        <tas_uid>63882446262f222d9bee722017926990</tas_uid>
+        <tri_uid>84426879862fcce21ad3ea9090508959</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>249816894626e45e7767da4071651814</category_uid>
+        <category_parent>0</category_parent>
+        <category_name><![CDATA[X100 | فرآيندهاي راهبري سيستم]]></category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>11636352562fb683d9099d4034140962</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Post_Code_Counter</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>11959838862fa0e7ea61782052673797</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>txt_name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>16156005862fb67f38c84e4060078182</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Job_Ranks_Counter</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>16186523462fb51b7f27b79017615231</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Ext_ORG_Name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>16760253962f7814e316c33014806402</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_L1_Code_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT NULL ORG_L1_Code, 'زير واحد را انتخاب كنيد' ORG_L1_Code
+
+UNION
+
+(SELECT ORG_L1_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE  ORG_Master_Code = '@#ORG_Type_Select'
+ and ORG_L1_Code <> 0
+ and ORG_L2_Code = 0
+ and ORG_L3_Code = 0
+ and ORG_L4_Code = 0
+ and ORG_L5_Code = 0
+ and IsActive = 1
+order by ORG_Code desc)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>19747924862f78107b08c23000947476</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Type_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT NULL ORG_Master_Code, 'سازمان را انتخاب كنيد' ORG_Master_Code
+
+UNION
+
+(SELECT ORG_Master_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE ORG_Type = '@#ORG_Type' 
+ and ORG_L1_Code = 0
+ and ORG_L2_Code = 0
+ and ORG_L3_Code = 0
+ and ORG_L4_Code = 0
+ and ORG_L5_Code = 0
+ and IsActive = 1
+order by ORG_Code)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>19854736363006916613ad4010443929</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Jobs_Title</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>22045898462fa04baebd252085731360</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Post_Title</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2229614256302128831fc12068201842</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Job_Code_Selector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>22338867162f9f5d6d57899009514272</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Post_Code_Selector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>24224853562fcce77a6ef69097802006</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>RequestID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>243865966630212097dd473052135166</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Job_Title_Search</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>25778198263034a21c2d9e9024093521</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ID_Detector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>30606079162fb419551a1b3062170398</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Name</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>35110473662f9f735beb039017547122</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Job_Ranks_Title</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>36380004862f78207157e92007552197</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_L2_Code_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT NULL ORG_L2_Code, 'زير واحد را انتخاب كنيد' ORG_L2_Code
+
+UNION
+
+(SELECT ORG_L2_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE  ORG_Master_Code = '@#ORG_Type_Select'
+ and ORG_L1_Code = '@#ORG_L1_Code_Select'
+ and ORG_L2_Code <> 0
+ and ORG_L3_Code = 0
+ and ORG_L4_Code = 0
+ and ORG_L5_Code = 0
+ and IsActive = 1
+order by ORG_Code desc)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>39031982462f78360a45d96046307130</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_L3_Code_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT NULL ORG_L3_Code, 'زير واحد را انتخاب كنيد' ORG_L3_Code
+
+UNION
+
+(SELECT ORG_L3_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE  ORG_Master_Code = '@#ORG_Type_Select'
+ and ORG_L1_Code = '@#ORG_L1_Code_Select'
+ and ORG_L2_Code = '@#ORG_L2_Code_Select'
+ and ORG_L3_Code <> 0
+ and ORG_L4_Code = 0
+ and ORG_L5_Code = 0
+ and IsActive = 1
+order by ORG_Code desc)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4167480466305ad5e83f3d6056322756</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Post_ID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>42700195362f78e99d69136065713148</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_L5_Code_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT 0 ORG_L5_Code, 'واحد را انتخاب كنيد' ORG_L5_Code
+
+UNION
+
+SELECT ORG_L5_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE ORG_Master_Code = '@#ORG_Type_Select'
+ and Ext_Int_ID = 'N'
+ and ORG_L1_Code = '@#ORG_L1_Code_Select'
+ and ORG_L2_Code = '@#ORG_L2_Code_Select'
+ and ORG_L3_Code = '@#ORG_L3_Code_Select'
+ and ORG_L4_Code = '@#ORG_L4_Code_Select'
+ and ORG_L5_Code <> 0
+ and IsActive = 1]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>46319580062f7273f9b00b7092174616</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Upload_Files</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>46490478563047056d203c9015355596</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Replacement</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u0622\u0631\u064a"},{"value":"0","label":"\u062e\u064a\u0631"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>56347656262f734288e7e39063348005</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Ext_Int_ID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"","label":"\u0627\u0646\u062a\u062e\u0627\u0628 \u0643\u0646\u064a\u062f ..."},{"value":"N","label":"\u062f\u0627\u062e\u0644 \u0634\u0631\u0643\u062a IOEC"},{"value":"X","label":"\u062e\u0627\u0631\u062c \u0634\u0631\u0643\u062a IOEC"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6148376466301cdd96adfb6018609856</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>63607788062fa377f7bea78004816226</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Code_Selector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>71704101562fb7b7b6c43a6092186894</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Post_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>73257446263048c434475c0029990741</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Job_Title_Show</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>76141357462fcce303e20c0016988803</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ExecuteID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>77526855462f8b1d2c50ab5005555711</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Ext_Org_Type</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>78042602562fa371565fda8090659642</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Ext_ORG_Code_Selector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7929992676300880ad68ff4003561903</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Select_Reg_Type</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u0627\u064a\u062c\u0627\u062f"},{"value":"2","label":"\u062d\u0630\u0641 \/ \u062c\u0627\u064a\u06af\u0632\u064a\u0646\u064a"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>82785034162f783c4be7e68012944460</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Job_Ranks_Code_Selector</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>82876586962fa34f187fe89001739272</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Job_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>85095214862f726b21d0249058550685</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Time_Stamp</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>85559082062f77e3d23ba13042745478</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Type</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"","label":"\u0646\u0648\u0639 \u0633\u0627\u0632\u0645\u0627\u0646 \u0631\u0627 \u0627\u0646\u062a\u062e\u0627\u0628 \u0643\u0646\u064a\u062f"},{"value":"M","label":"\u0643\u062f 001 \u062a\u0627 100 || \u0645\u062f\u064a\u0631\u064a\u062a"},{"value":"D","label":"\u0643\u062f 101 \u062a\u0627 400 || \u0648\u0627\u062d\u062f\u0647\u0627"},{"value":"C","label":"\u0643\u062f 501 \u062a\u0627 700 ||  \u0643\u0627\u0631 \u06af\u0631\u0648\u0647\u200c\u0647\u0627 \u0648 \u0643\u0645\u064a\u062a\u0647\u200c\u0647\u0627"},{"value":"P","label":"\u0643\u062f 701 \u062a\u0627 999 || \u067e\u0631\u0648\u0698\u0647\u200c\u0647\u0627"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>86557006862f78cca477271056719823</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_L4_Code_Select</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT NULL ORG_L4_Code, 'زير واحد را انتخاب كنيد' ORG_L4_Code
+
+UNION
+
+(SELECT ORG_L4_Code, concat(ORG_Code," || ",ORG_Name)
+FROM PMT_TB100009 
+WHERE  ORG_Master_Code = '@#ORG_Type_Select'
+ and ORG_L1_Code = '@#ORG_L1_Code_Select'
+ and ORG_L2_Code = '@#ORG_L2_Code_Select'
+ and ORG_L3_Code = '@#ORG_L3_Code_Select'
+ and ORG_L4_Code <> 0
+ and ORG_L5_Code = 0
+ and IsActive = 1
+order by ORG_Code desc)]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>89535522462fb1a0f157994089288690</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Job_Title</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>90951538062fb7b3e98e217067719585</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Job_Ranks_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>91235351562fa37a38c70c4035249633</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>ORG_Job_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>94302368162f726dd6cd982050055460</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Description</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>99005126962fa3734db9a39095599808</var_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <var_name>Int_ORG_Code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask">
+      <record>
+        <etr_uid>1624145506301e1157c2337023318706</etr_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <element_uid>80737304662f22329db9ae8080303431</element_uid>
+        <element_type>bpmnGateway</element_type>
+        <tas_uid>gtg-174316301e115740220008872537</tas_uid>
+      </record>
+      <record>
+        <etr_uid>71463012662f22302a97bf0072227789</etr_uid>
+        <prj_uid>87554931662f221bf840458054832994</prj_uid>
+        <element_uid>70959472662f22302974e68035649472</element_uid>
+        <element_type>bpmnGateway</element_type>
+        <tas_uid>gtg-5312562f22302a4c038031717549</tas_uid>
+      </record>
+    </table>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name><![CDATA[ايجاد اطلاعات]]></file_name>
+      <file_path><![CDATA[87554931662f221bf840458054832994\26879882862f725ba0d8bd6067551026.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg3NTU0OTMxNjYyZjIyMWJmODQwNDU4MDU0ODMyOTk0LzI2ODc5ODgyODYyZjcyNWJhMGQ4YmQ2MDY3NTUxMDI2IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[درخواست ايجاد / اصلاح اطلاعات شغلي]]></file_name>
+      <file_path><![CDATA[87554931662f221bf840458054832994\38705444362f725ae2cc315041883494.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg3NTU0OTMxNjYyZjIyMWJmODQwNDU4MDU0ODMyOTk0LzM4NzA1NDQ0MzYyZjcyNWFlMmNjMzE1MDQxODgzNDk0IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[حذف اطلاعات]]></file_name>
+      <file_path><![CDATA[87554931662f221bf840458054832994\52459716762f725c517aa74058016728.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg3NTU0OTMxNjYyZjIyMWJmODQwNDU4MDU0ODMyOTk0LzUyNDU5NzE2NzYyZjcyNWM1MTdhYTc0MDU4MDE2NzI4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name><![CDATA[ثبت و اطلاع‌رساني اطلاعات]]></file_name>
+      <file_path><![CDATA[87554931662f221bf840458054832994\71408081062f725cf9e6a97036240638.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijg3NTU0OTMxNjYyZjIyMWJmODQwNDU4MDU0ODMyOTk0LzcxNDA4MDgxMDYyZjcyNWNmOWU2YTk3MDM2MjQwNjM4IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

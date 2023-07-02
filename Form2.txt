@@ -1,0 +1,494 @@
+//‰„«Ì‘ ’›ÕÂ
+
+$("#26879882862f725ba0d8bd6067551026").css({"backgroundColor":"#ccccff"});
+$("#26879882862f725ba0d8bd6067551026").css({"border":"3px double #336699"});
+
+$("#title0000000001").css({"font-family":"b Titr","color":"#ffffff","background-color":"#336699","border-radius":"5px"});
+$("#title0000000001").css({"text-align":"center"});
+
+$("#subtitle0000000001").css({"font-family":"b Titr","color":"#ffffff","background-color":"#669933","border-radius":"5px"});
+$("#subtitle0000000001").css({"text-align":"center"});
+
+$("#subtitle0000000002").css({"font-family":"b Titr","color":"#ffffff","background-color":"#669933","border-radius":"5px"});
+$("#subtitle0000000002").css({"text-align":"center"});
+
+$("#subtitle0000000003").css({"font-family":"b Titr","color":"#ffffff","background-color":"#669933","border-radius":"5px"});
+$("#subtitle0000000003").css({"text-align":"center"});
+
+$("#submit0000000001").css({"font-family":"b titr"});
+
+$("#subtitle0000000001").hide();
+$("#subtitle0000000002").hide();
+$("#subtitle0000000003").hide();
+$("#ORG_Type").hide();
+$("#ORG_Type_Select").hide();
+$("#ORG_L1_Code_Select").hide();
+$("#ORG_L2_Code_Select").hide();
+$("#ORG_L3_Code_Select").hide();
+$("#ORG_L4_Code_Select").hide();
+$("#ORG_L5_Code_Select").hide();
+$("#Ext_Org_Type").hide();
+$("#Job_Ranks_Code").hide();
+$("#Job_Ranks_Title").hide();
+$("#Post_Code").hide();
+$("#Post_Title").hide();
+$("#ORG_Code_Selector").hide();
+$("#ORG_Name").hide();
+$("#Ext_ORG_Code_Selector").hide();
+$("#Ext_ORG_Name").hide();
+$("#Post_Code_Counter").hide();
+$("#Job_Ranks_Counter").hide();
+$("#Post_ID").hide();
+$("#Job_Ranks_Code_Selector").hide();
+$("#button_code").hide();
+$("#ORG_Job_Code").hide();
+$("#ORG_Job_Title").hide();
+$("#Job_Code").hide();
+$("#Jobs_Title").hide();
+$("#ORG_Code").hide();
+$("#submit0000000001").hide();
+
+//Å— ﬂ—œ‰ gridview  --- 
+
+if ($("#Description").getNumberRows() == 1 && $("#Description").getValue (1,1) =="") {
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',true);
+  	$("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  }else{
+	$("#Description").addRow();
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',true); 
+    $("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  };
+
+// ‰„«Ì‘ ›Ì·œÂ« »«  ÊÃÂ »Â ”«“„«‰ œ«Œ·Ì Ì« Œ«—ÃÌ
+
+$("#Ext_Int_ID").setOnchange(function(EI) {
+  
+  EI = $("#Ext_Int_ID").getValue();
+  
+  switch(true) {
+      
+    case ( EI == "" ):
+      $("#subtitle0000000001").hide();
+      $("#subtitle0000000002").hide();
+      $("#subtitle0000000003").hide();
+      $("#ORG_Type").hide();
+      $("#ORG_Type_Select").hide();
+      $("#ORG_L1_Code_Select").hide();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#Ext_Org_Type").hide();
+      $("#Job_Ranks_Code").hide();
+      $("#Job_Ranks_Title").hide();
+      $("#Post_Code").hide();
+      $("#Post_Title").hide();
+      $("#ORG_Type").setValue("");
+      $("#ORG_Code").setValue("");
+      $("#Ext_Org_Type").setValue("");
+      alert ("œ«Œ·Ì Ì« Œ«—ÃÌ »Êœ‰ ”«“„«‰ —« „⁄Ì‰ ﬂ‰Ìœ!");
+      break;
+      
+    case ( EI == "N" ):
+      $("#subtitle0000000001").show();
+      $("#subtitle0000000002").hide();
+      $("#subtitle0000000003").hide();
+      $("#ORG_Type").show();
+      $("#ORG_Type_Select").show();
+      $("#ORG_L1_Code_Select").hide();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#Ext_Org_Type").hide();
+      $("#Job_Ranks_Code").hide();
+      $("#Job_Ranks_Title").hide();
+      $("#Post_Code").hide();
+      $("#Post_Title").hide();
+      $("#ORG_Type").setValue("");
+      $("#ORG_Code").setValue("");
+      $("#Ext_Org_Type").setValue("");
+      break;   
+      
+    case ( EI == "X" ):
+      $("#subtitle0000000001").hide();
+      $("#subtitle0000000002").show();
+      $("#subtitle0000000003").hide();
+      $("#ORG_Type").hide();
+      $("#ORG_Type_Select").hide();
+      $("#ORG_L1_Code_Select").hide();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#Ext_Org_Type").show();
+      $("#Job_Ranks_Code").hide();
+      $("#Job_Ranks_Title").hide();
+      $("#Post_Code").hide();
+      $("#Post_Title").hide();
+      $("#ORG_Type").setValue("");
+      $("#ORG_Code").setValue("");
+      $("#Ext_Org_Type").setValue("");      
+      break;      
+      
+  }
+  
+});
+
+
+// ‰„«Ì‘ ›Ì·œÂ« »«  ÊÃÂ »Â «‰ Œ«» «ÿ·«⁄«  ‘€· œ«Œ· ‘—ﬂ 
+
+$("#ORG_Type_Select").setOnchange(function(OTS) {
+  
+  OTS = $("#ORG_Type_Select").getValue();
+  
+  switch(true) {
+      
+    case ( OTS == "" ):
+      $("#ORG_L1_Code_Select").hide();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#subtitle0000000003").hide();
+      $("#Post_ID").hide();
+      $("#Job_Ranks_Code_Selector").hide();
+      $("#Post_Title").hide();
+      $("#Job_Ranks_Title").hide();
+      $("#button_code").hide();
+      $("#ORG_Job_Code").hide();
+      $("#ORG_Job_Title").hide();
+      break;
+      
+     case ( OTS != "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#subtitle0000000003").show();
+      $("#Post_ID").show();
+      $("#Job_Ranks_Code_Selector").show();
+      $("#Post_Title").show();
+      $("#Job_Ranks_Title").show();
+      $("#button_code").show();
+      $("#ORG_Job_Code").show();
+      $("#ORG_Job_Title").show();
+      $("#ORG_Code").setValue($("#ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+$("#ORG_L1_Code_Select").setOnchange(function(OL) {
+  
+  OL = $("#ORG_L1_Code_Select").getValue();
+  
+  switch(true) {
+      
+    case ( OL == "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").hide();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      break;
+      
+     case ( OL != "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#ORG_Code").setValue($("#ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+$("#ORG_L2_Code_Select").setOnchange(function(OL) {
+  
+  OL = $("#ORG_L2_Code_Select").getValue();
+  
+  switch(true) {
+      
+    case ( OL == "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").hide();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      break;
+      
+     case ( OL != "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").show();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      $("#ORG_Code").setValue($("#ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+$("#ORG_L3_Code_Select").setOnchange(function(OL) {
+  
+  OL = $("#ORG_L3_Code_Select").getValue();
+  
+  switch(true) {
+      
+    case ( OL == "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").show();
+      $("#ORG_L4_Code_Select").hide();
+      $("#ORG_L5_Code_Select").hide();
+      break;
+      
+     case ( OL != "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").show();
+      $("#ORG_L4_Code_Select").show();
+      $("#ORG_L5_Code_Select").hide();
+      $("#ORG_Code").setValue($("#ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+$("#ORG_L4_Code_Select").setOnchange(function(OL) {
+  
+  OL = $("#ORG_L4_Code_Select").getValue();
+  
+  switch(true) {
+      
+    case ( OL == "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").show();
+      $("#ORG_L4_Code_Select").show();
+      $("#ORG_L5_Code_Select").hide();
+      break;
+      
+     case ( OL != "" ):
+      $("#ORG_L1_Code_Select").show();
+      $("#ORG_L2_Code_Select").show();
+      $("#ORG_L3_Code_Select").show();
+      $("#ORG_L4_Code_Select").show();
+      $("#ORG_L5_Code_Select").show();
+      $("#ORG_Code").setValue($("#ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+// ‰„«Ì‘ ›Ì·œÂ« »«  ÊÃÂ »Â «‰ Œ«» «ÿ·«⁄«  ‘€· Œ«—Ã ‘—ﬂ 
+
+$("#Ext_Org_Type").setOnchange(function(EOT) {
+  
+  EOT = $("#Ext_Org_Type").getValue();
+  
+  switch(true) {
+      
+    case ( EOT == "" ):
+      $("#subtitle0000000003").hide();
+      $("#Post_ID").hide();
+      $("#Job_Ranks_Code_Selector").hide();
+      $("#Post_Title").hide();
+      $("#Job_Ranks_Title").hide();
+      $("#button_code").hide();
+      $("#ORG_Job_Code").hide();
+      $("#ORG_Job_Title").hide();
+      break;
+      
+     case ( EOT != "" ):
+      $("#subtitle0000000003").show();
+      $("#Post_ID").show();
+      $("#Job_Ranks_Code_Selector").show();
+      $("#Post_Title").show();
+      $("#Job_Ranks_Title").show();
+      $("#button_code").show();
+      $("#ORG_Job_Code").show();
+      $("#ORG_Job_Title").show();
+      $("#ORG_Code").setValue($("#Ext_ORG_Code_Selector").getValue());
+      break;   
+      
+  }
+  
+});
+
+// ”«Œ ‰ ﬂœ  —ﬂÌ»Ì Ê ﬂ‰ —· ›Ì·œÂ«Ì „—»Êÿ »Â ¬‰
+
+$("#button_code").find("button").click(function(JRC,JRT,PID,PT,PC,OC,ON,EOC,EON,C1,C2,EI_ID,JRT_Condition,PT_Condition) {
+  
+  JRC = $("#Job_Ranks_Code_Selector").getValue();
+  JRT = $("#Job_Ranks_Title").getValue();
+  PID = $("#Post_ID").getValue();
+  PT = $("#Post_Title").getValue();
+  PC = $("#Post_Code").getValue();
+  OC = $("#ORG_Code_Selector").getValue();
+  ON = $("#ORG_Name").getValue();
+  EOC = $("#Ext_ORG_Code_Selector").getValue();
+  EON = $("#Ext_ORG_Name").getValue();
+  EI_ID = $("#Ext_Int_ID").getValue();
+  C1 = $("#Job_Ranks_Counter").getValue();
+  C2 = $("#Post_Code_Counter").getValue();
+  $("#submit0000000001").hide();
+  
+  switch (true) {
+      
+    case (JRT == ""):
+      $("#Job_Ranks_Title").getControl().css("background-color", "orange");
+      $("#Job_Ranks_Title").getControl().css("border", "1px solid red");
+      alert("»«Ì” Ì ›Ì·œ „—»ÊÿÂ  ﬂ„Ì· ‘Êœ");
+      JRT_Condition = 0;
+      break;
+      
+    case (JRT != ""):
+      $("#Job_Ranks_Title").getControl().css("background-color", "");
+      $("#Job_Ranks_Title").getControl().css("border", "1px solid green");
+      JRT_Condition = 1;
+      break;
+      
+  }
+  
+  switch (true) {
+      
+    case (PT == ""):
+      $("#Post_Title").getControl().css("background-color", "orange");
+      $("#Post_Title").getControl().css("border", "1px solid red");
+      alert("»«Ì” Ì ›Ì·œ „—»ÊÿÂ  ﬂ„Ì· ‘Êœ");
+      PT_Condition = 0;
+      break;
+      
+    case (PT != ""):
+      $("#Post_Title").getControl().css("background-color", "");
+      $("#Post_Title").getControl().css("border", "1px solid green");
+      PT_Condition = 1;
+      break;
+      
+  }
+  
+if (JRT_Condition == 1 && PT_Condition == 1) {
+    
+    $("#submit0000000001").show();
+  
+  
+  if (JRC == 99 ) {
+    
+    $("#Job_Ranks_Title").attr('disabled',false);
+    
+    switch (true) {
+        
+      case (C1 < 9):   
+        JRC = '0' + (parseInt(C1) + 1);
+        break;
+        
+      case (C1 > 8):   
+        JRC = (parseInt(C1) + 1);
+        break;
+        
+    }
+  }   
+  
+  if (PID == 2) {
+    
+    $("#Post_Title").attr('disabled',false);
+    
+    switch (true) {
+    
+      case (C2 < 8):   
+        PC = '000' + (parseInt(C2) + 1);
+        break;
+        
+      case (C2 > 8 && C2 < 99):   
+        PC = '00' + (parseInt(C2) + 1);
+        break;
+    
+      case (C2 > 98 && C2 < 999):   
+        PC = '0' + (parseInt(C2) + 1);
+        break;
+    
+      case (C2 > 998):   
+        PC = (parseInt(C2) + 1);
+        break;    
+    
+    }
+  }
+  
+  $("#Job_Ranks_Code").setValue(JRC);
+  $("#Post_Code").setValue(PC);
+  
+  switch(true) {
+      
+    case (EI_ID == "N"):
+      $("#ORG_Job_Code").setValue(OC+"-"+PC+JRC);
+      $("#ORG_Job_Title").setValue("”«“„«‰ : "+ON+" || " +"ÕÊ“Â : "+PT+" || "+"— »Â : "+JRT);
+      $("#Job_Code").setValue(PC+JRC);
+      $("#Jobs_Title").setValue("ÕÊ“Â : "+PT+" || "+"— »Â : "+JRT);
+      $("#Description").setValue("«ÿ·«⁄«  „—»Êÿ »Â ‘€· «ÌÃ«œ ê—œÌœ."+"\n"+ $("#ORG_Job_Code").getValue() + " || "
+                                 + $("#ORG_Job_Title").getValue()
+                                 ,$("#Description").getNumberRows(),'2');
+      break;      
+      
+    case (EI_ID == "X"):
+      $("#ORG_Job_Code").setValue(EOC+"-"+PC+JRC);
+      $("#ORG_Job_Title").setValue("‰Ê⁄ ›⁄«·Ì  œ— ”«“„«‰ Œ«—ÃÌ : "+EON+" || " +" Œ’’ : "+PT+" || "+"œÌ”ÌÅ·Ì‰ : "+JRT);
+      $("#Job_Code").setValue(EOC+"-"+PC+JRC);
+      $("#Jobs_Title").setValue(" Œ’’ : "+PT+" || "+"œÌ”ÌÅ·Ì‰ : "+JRT);
+      $("#Description").setValue("«ÿ·«⁄«  „—»Êÿ »Â ‘€· «ÌÃ«œ ê—œÌœ."+"\n"+ $("#ORG_Job_Code").getValue() + " || "
+                                 + $("#ORG_Job_Title").getValue()
+                                 ,$("#Description").getNumberRows(),'2');
+      break; 
+      
+  }
+    
+  } else {
+    
+    $("#ORG_Job_Code").setValue("");
+    $("#ORG_Job_Title").setValue("");
+    $("#Job_Code").setValue("");
+    $("#Jobs_Title").setValue("");
+    
+  }
+  
+});
+
+
+
+$("#Job_Ranks_Code_Selector").setOnchange(function(JRC) {
+  
+  JRC = $("#Job_Ranks_Code_Selector").getValue();
+  
+  if (JRC == 99){
+    
+    $("#Job_Ranks_Title").getControl().attr('disabled',false);
+    
+  } else {
+    
+    $("#Job_Ranks_Title").getControl().attr('disabled',true);
+  }
+  
+});
+
+$("#Post_ID").setOnchange(function(PC) {
+  
+  PC = $("#Post_ID").getValue();
+  
+  if (PC == 2){
+    
+    $("#Post_Title").getControl().attr('disabled',false);
+    
+  } else {
+    
+    $("#Post_Title").getControl().attr('disabled',true);
+  }
+  
+});  

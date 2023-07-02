@@ -1,0 +1,80 @@
+//‰„«Ì‘ ’›ÕÂ
+
+$("#38705444362f725ae2cc315041883494").css({"backgroundColor":"#ccccff"});
+$("#38705444362f725ae2cc315041883494").css({"border":"3px double #336699"});
+
+
+$("#title0000000001").css({"font-family":"b Titr","color":"#ffffff","background-color":"#336699","border-radius":"5px"});
+$("#title0000000001").css({"text-align":"center"});
+
+$("#submit0000000001").css({"font-family":"b titr"});
+
+
+//Å— ﬂ—œ‰ gridview  --- 
+
+if ($("#Description").getNumberRows() == 1 && $("#Description").getValue (1,1) =="") {
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',false);
+  	$("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  }else{
+	$("#Description").addRow();
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',false); 
+    $("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  };
+
+// ‰„«Ì‘ ›Ì·œÂ« »«  ÊÃÂ »Â ‰Ê⁄  €ÌÌ—« 
+
+$("#ORG_Job_Title_Search").hide();
+$("#ORG_Job_Code_Selector").hide();
+$("#ORG_Job_Title_Show").hide();
+$("#ID_Detector").hide();
+
+$("#Select_Reg_Type").setOnchange(function(SRT,OJC) {
+  
+  SRT = $("#Select_Reg_Type").getValue();
+  OJC = $("#ORG_Job_Code_Selector").getValue();
+  
+  switch(true){
+   
+    case ( SRT == 1 ):
+      $("#ORG_Job_Title_Search").hide();
+	  $("#ORG_Job_Code_Selector").hide();
+      $("#ORG_Job_Title_Show").hide();
+      $("#ORG_Job_Code_Selector").setValue("");
+      $("#Description").setValue("",$("#Description").getNumberRows(),'2');
+      $("#submit0000000001").show();
+      break;
+      
+    case ( SRT == 2 ):
+      $("#ORG_Job_Title_Search").show();
+	  $("#ORG_Job_Code_Selector").show();
+      $("#ORG_Job_Title_Show").show();
+      $("#Description").setValue("",$("#Description").getNumberRows(),'2');
+      $("#submit0000000001").hide();
+      break;
+      
+  }
+  
+});  
+$("#ORG_Job_Code_Selector").setOnchange(function(SRT,OJC,OJT) {
+  
+  SRT = $("#Select_Reg_Type").getValue();
+  OJC = $("#ORG_Job_Code_Selector").getValue();
+  OJT = $("#ORG_Job_Title_Show").getValue();
+  
+  
+  switch(true){
+   
+    case ( OJC == ""):
+      $("#submit0000000001").hide();
+      break;
+      
+    case ( OJC != "" ):
+      $("#submit0000000001").show();
+      $("#Description").setValue("«ÿ·«⁄«  ‘€·Ì “Ì— ÃÂ  Õ–› «⁄·«„ „Ì ê—œœ : " + "\n"
+                                 + OJC + " || " + OJT +"\n"
+                                 + " Ê÷ÌÕ«  ‘€· Ã«Ìê“Ì‰ (œ— ’Ê—  ‰Ì«“) :",$("#Description").getNumberRows(),'2');
+      break;      
+      
+  }  
+  
+});

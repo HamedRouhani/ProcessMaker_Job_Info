@@ -1,0 +1,18 @@
+$Registered_By_USR_UID = @@ExecuteID;
+$Requested_By_USR_UID = @@RequestID;
+$Time_Stamp = @@Time_Stamp;
+
+$ID_Detector = @@ID_Detector;
+	
+$IsDelete = 0;
+$IsActive = 0;
+	
+$Update_sql = "UPDATE PMT_TB110007 SET
+Registered_By_USR_UID = '$Registered_By_USR_UID',
+Requested_By_USR_UID = '$Requested_By_USR_UID',
+Time_Stamp = '$Time_Stamp',
+IsDelete = '$IsDelete',
+IsActive = '$IsActive' 
+WHERE ID = '$ID_Detector'";
+	
+executeQuery ($Update_sql);

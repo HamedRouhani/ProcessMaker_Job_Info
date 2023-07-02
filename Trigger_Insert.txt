@@ -1,0 +1,106 @@
+$Registered_By_USR_UID = @@ExecuteID;
+$Requested_By_USR_UID = @@RequestID;
+$Time_Stamp = @@Time_Stamp;
+
+$ORG_Code = @@ORG_Code;
+$Job_Code = @@Job_Code;
+$Jobs_Title = @@Jobs_Title;
+$ORG_Job_Code = @@ORG_Job_Code;
+$ORG_Job_Title = @@ORG_Job_Title;
+
+$Post_Code = @@Post_Code;
+$Post_Title = @@Post_Title;
+
+$Ext_Int_ID = @@Ext_Int_ID;
+$ID_Detector = @@ID_Detector;
+
+$IsDelete = 0;
+$IsActive = 1;
+	
+$Insert_sql = "INSERT INTO PMT_TB110007 
+(Registered_By_USR_UID
+,Requested_By_USR_UID
+,Time_Stamp
+,IsDelete
+,IsActive
+,ORG_Code
+,Job_Code
+,Jobs_Title
+,ORG_Job_Code
+,ORG_Job_Title
+,Ext_Int_ID)
+
+VALUES 
+('$Registered_By_USR_UID'
+,'$Requested_By_USR_UID'
+,'$Time_Stamp'
+,'$IsDelete'
+,'$IsActive'
+,'$ORG_Code'
+,'$Job_Code'
+,'$Jobs_Title'
+,'$ORG_Job_Code'
+,'$ORG_Job_Title'
+,'$Ext_Int_ID')";
+
+executeQuery ($Insert_sql);
+
+if (@@Post_ID == '2'){
+		
+		$IsDelete = 0;
+		$IsActive = 1;
+	
+		$Insert_Post_Code_sql = "INSERT INTO PMT_TB100012 
+		(Registered_By_USR_UID
+		,Requested_By_USR_UID
+		,Time_Stamp
+		,IsDelete
+		,IsActive
+		,Post_Code
+		,Post_Title
+		,ORG_Code
+		,Ext_Int_ID)
+
+	VALUES 
+		('$Registered_By_USR_UID'
+		,'$Requested_By_USR_UID'
+		,'$Time_Stamp'
+		,'$IsDelete'
+		,'$IsActive'
+		,'$Post_Code'
+		,'$Post_Title'
+		,'$ORG_Code'
+		,'$Ext_Int_ID')";
+		
+	executeQuery ($Insert_Post_Code_sql);
+		
+}
+	
+if (@@Job_Ranks_Code_Selector == '99'){
+		
+		$IsDelete = 0;
+		$IsActive = 1;
+	
+		$Insert_Job_Ranks_Code_sql = "INSERT INTO PMT_TB100011 
+		(Registered_By_USR_UID
+		,Requested_By_USR_UID
+		,Time_Stamp
+		,IsDelete
+		,IsActive
+		,Job_Ranks_Code
+		,Job_Ranks_Title
+		,Ext_Int_ID)
+
+	VALUES 
+		('$Registered_By_USR_UID'
+		,'$Requested_By_USR_UID'
+		,'$Time_Stamp'
+		,'$IsDelete'
+		,'$IsActive'
+		,'$Job_Ranks_Code'
+		,'$Job_Ranks_Title'
+		,'$Ext_Int_ID')";
+		
+	executeQuery ($Insert_Job_Ranks_Code_sql);
+		
+}

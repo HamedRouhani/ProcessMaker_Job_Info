@@ -1,0 +1,69 @@
+//‰„«Ì‘ ’›ÕÂ
+
+$("#71408081062f725cf9e6a97036240638").css({"backgroundColor":"#ccccff"});
+$("#71408081062f725cf9e6a97036240638").css({"border":"3px double #336699"});
+
+$("#title0000000001").css({"font-family":"b Titr","color":"#ffffff","background-color":"#336699","border-radius":"5px"});
+$("#title0000000001").css({"text-align":"center"});
+
+$("#subtitle0000000001").css({"font-family":"b Titr","color":"#ffffff","background-color":"#669933","border-radius":"5px"});
+$("#subtitle0000000001").css({"text-align":"center"});
+
+$("#subtitle0000000002").css({"font-family":"b Titr","color":"#ffffff","background-color":"#993366","border-radius":"5px"});
+$("#subtitle0000000002").css({"text-align":"center"});
+
+
+$("#submit0000000001").css({"font-family":"b titr"});
+
+
+//Å— ﬂ—œ‰ gridview  --- 
+
+if ($("#Description").getNumberRows() == 1 && $("#Description").getValue (1,1) =="") {
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',true);
+  	$("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  }else{
+	$("#Description").addRow();
+	$('#Description').getControl($("#Description").getNumberRows(),'2').attr('disabled',true); 
+    $("#Description").setValue($("#txt_name").getValue(),$("#Description").getNumberRows(),'1');
+  };
+
+$("#Description").setValue(" €ÌÌ—«  «⁄„«· ‘œÂ „‘«ÂœÂ ê—œÌœ ...",$("#Description").getNumberRows(),'2');
+
+// ‰„«Ì‘ ›—„ »«  ÊÃÂ »Â ‰Ê⁄ œ—ŒÊ«”  («ÌÃ«œ/Õ–›/Ã«Ìê“Ì‰Ì)
+
+$("#Select_Reg_Type").hide();
+$("#Replacement").hide();
+
+var SRT = $("#Select_Reg_Type").getValue();
+var REP = $("#Replacement").getValue();
+
+switch (true) {
+ 
+  case ( SRT == 1):
+    $("#subtitle0000000001").show();
+    $("#ORG_Job_Code").show();
+    $("#ORG_Job_Title").show();
+    $("#subtitle0000000002").hide();
+    $("#ORG_Job_Code_Selector").hide();
+    $("#ORG_Job_Title_Show").hide();
+    break;
+    
+  case ( SRT == 2 && REP == 1):
+    $("#subtitle0000000001").show();
+    $("#ORG_Job_Code").show();
+    $("#ORG_Job_Title").show();
+    $("#subtitle0000000002").show();
+    $("#ORG_Job_Code_Selector").show();
+    $("#ORG_Job_Title_Show").show();
+    break;
+    
+  case ( SRT == 2 && REP == 0):
+    $("#subtitle0000000001").hide();
+    $("#ORG_Job_Code").hide();
+    $("#ORG_Job_Title").hide();
+    $("#subtitle0000000002").show();
+    $("#ORG_Job_Code_Selector").show();
+    $("#ORG_Job_Title_Show").show();
+    break;     
+    
+}
